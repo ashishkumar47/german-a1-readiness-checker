@@ -42,6 +42,8 @@ const categoryLabels: Record<QuestionCategory, string> = {
 
 export default function ResultScreen({ result, name, onRetake }: ResultScreenProps) {
   const config = readinessConfig[result.readinessLevel];
+  const passed = result.readinessLevel === 'ready';
+  const confettiColors = ['#22c55e', '#3b82f6', '#f59e0b', '#ec4899', '#8b5cf6'];
 
   return (
     <div className="flex-1 flex items-center justify-center p-4 sm:p-6">
@@ -52,18 +54,50 @@ export default function ResultScreen({ result, name, onRetake }: ResultScreenPro
           <p className="text-gray-500">{name ? `${name}, here's how you did` : "Here's how you did"}</p>
         </div>
 
-        {/* Score Card */}
-        <div className={`rounded-2xl p-6 text-center ${config.bg} ${config.border} border-2`}>
-          <p className="text-5xl font-bold mb-1">
-            <span className={config.color}>{result.correctAnswers}</span>
-            <span className="text-gray-400 text-3xl">/{result.totalQuestions}</span>
-          </p>
-          <p className="text-gray-500 text-sm mb-4">{result.scorePercentage}% correct</p>
-          <div className="inline-flex items-center gap-2 text-lg font-semibold">
-            <span>{config.icon}</span>
-            <span className={config.color}>{config.label}</span>
+        {passed && (
+          <div
+            className="flex items-center justify-center gap-3 rounded-2xl border border-green-200 bg-green-50 px-5 py-4 text-center shadow-sm celebration-banner"
+            role="status"
+          >
+            <span className="text-3xl" aria-hidden="true">🎉</span>
+            <div>
+              <p className="font-bold text-green-800">You passed the readiness check!</p>
+              <p className="text-sm text-green-700">Your score meets the Ready benchmark. Great work!</p>
+            </div>
+            <span className="text-3xl" aria-hidden="true">🎊</span>
           </div>
-          <p className="text-sm text-gray-600 mt-3">{config.message}</p>
+        )}
+
+        {/* Score Card */}
+        <div className={`relative overflow-hidden rounded-2xl p-6 text-center ${config.bg} ${config.border} border-2`}>
+          {passed && (
+            <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+              {confettiColors.concat(confettiColors, confettiColors).map((color, index) => (
+                <span
+                  key={index}
+                  className="celebration-confetti"
+                  style={{
+                    left: `${(index * 29) % 100}%`,
+                    animationDelay: `${(index % 7) * -0.24}s`,
+                    animationDuration: `${2.2 + (index % 4) * 0.25}s`,
+                    backgroundColor: color,
+                  }}
+                />
+              ))}
+            </div>
+          )}
+          <div className="relative z-10">
+            <p className="text-5xl font-bold mb-1">
+              <span className={config.color}>{result.correctAnswers}</span>
+              <span className="text-gray-400 text-3xl">/{result.totalQuestions}</span>
+            </p>
+            <p className="text-gray-500 text-sm mb-4">{result.scorePercentage}% correct</p>
+            <div className="inline-flex items-center gap-2 text-lg font-semibold">
+              <span>{config.icon}</span>
+              <span className={config.color}>{config.label}</span>
+            </div>
+            <p className="text-sm text-gray-600 mt-3">{config.message}</p>
+          </div>
         </div>
 
         {/* Category Breakdown */}

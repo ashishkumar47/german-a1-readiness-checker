@@ -10,7 +10,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Present-tense verb conjugation",
-        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie.",
+        "explanation":  "With ich, kommen takes the -e ending: ich komme."
     },
     {
         "id":  "g2",
@@ -23,7 +24,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Present-tense verb conjugation",
-        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie.",
+        "explanation":  "For du, trinken takes the -st ending: du trinkst."
     },
     {
         "id":  "g3",
@@ -36,7 +38,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Present-tense verb conjugation",
-        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie.",
+        "explanation":  "Buch is neuter, so its nominative indefinite article is ein: ein Buch."
     },
     {
         "id":  "g4",
@@ -49,7 +52,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Present-tense verb conjugation",
-        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie.",
+        "explanation":  "With wir, the verb uses the infinitive-like plural form: wir gehen."
     },
     {
         "id":  "g5",
@@ -62,7 +66,8 @@
                     ],
         "correctAnswer":  3,
         "topic":  "German articles and cases",
-        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case.",
+        "explanation":  "Er is third-person singular; spielen takes -t: er spielt."
     },
     {
         "id":  "g6",
@@ -75,7 +80,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "German articles and cases",
-        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case.",
+        "explanation":  "Frau is feminine, so the nominative indefinite article is eine: eine Frau."
     },
     {
         "id":  "g7",
@@ -88,7 +94,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "German articles and cases",
-        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case.",
+        "explanation":  "The ich form of lesen is lese: ich lese ein Buch."
     },
     {
         "id":  "g8",
@@ -101,7 +108,8 @@
                     ],
         "correctAnswer":  3,
         "topic":  "German articles and cases",
-        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case.",
+        "explanation":  "The ihr form of haben is habt: habt ihr morgen frei?"
     },
     {
         "id":  "g9",
@@ -114,7 +122,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Verb forms and irregular verbs",
-        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences.",
+        "explanation":  "For sie meaning she, sprechen changes its stem vowel and ends in -t: sie spricht."
     },
     {
         "id":  "g10",
@@ -127,7 +136,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Verb forms and irregular verbs",
-        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences.",
+        "explanation":  "Kaffee is masculine. As the direct object of mÃ¶chte, it takes accusative einen: einen Kaffee."
     },
     {
         "id":  "g11",
@@ -140,7 +150,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Verb forms and irregular verbs",
-        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences.",
+        "explanation":  "The du form of laufen is lÃ¤ufst: the stem vowel changes from au to Ã¤u, and du takes -st."
     },
     {
         "id":  "g12",
@@ -153,7 +164,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Verb forms and irregular verbs",
-        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences.",
+        "explanation":  "Das Kind is third-person singular, so spielen takes -t: das Kind spielt."
     },
     {
         "id":  "g13",
@@ -166,7 +178,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Pronouns and sentence structure",
-        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position.",
+        "explanation":  "Wer asks who, which fits the answer Das ist mein Freund (That is my friend)."
     },
     {
         "id":  "g14",
@@ -179,7 +192,8 @@
                     ],
         "correctAnswer":  0,
         "topic":  "Pronouns and sentence structure",
-        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position.",
+        "explanation":  "Haben takes direct objects. Masculine Bruder becomes einen in the accusative; feminine Schwester uses eine."
     },
     {
         "id":  "g15",
@@ -192,7 +206,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Pronouns and sentence structure",
-        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position.",
+        "explanation":  "Anna is third-person singular, so hoeren takes -t: Anna hoert."
     },
     {
         "id":  "g16",
@@ -205,7 +220,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Pronouns and sentence structure",
-        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position.",
+        "explanation":  "Wir takes the -en form: wir arbeiten."
     },
     {
         "id":  "g17",
@@ -218,7 +234,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Prepositions and everyday grammar",
-        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case.",
+        "explanation":  "For du, wohnen takes -st: du wohnst."
     },
     {
         "id":  "g18",
@@ -231,7 +248,8 @@
                     ],
         "correctAnswer":  0,
         "topic":  "Prepositions and everyday grammar",
-        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case.",
+        "explanation":  "Mit means with/by and always takes the dative case: mit dem Bus."
     },
     {
         "id":  "g19",
@@ -244,7 +262,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Prepositions and everyday grammar",
-        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case.",
+        "explanation":  "Unter means under, so the sentence says the dog is under the table."
     },
     {
         "id":  "g20",
@@ -257,6 +276,7 @@
                     ],
         "correctAnswer":  3,
         "topic":  "Prepositions and everyday grammar",
-        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case.",
+        "explanation":  "Sie meaning they uses the plural verb form: sie kommen."
     }
 ]

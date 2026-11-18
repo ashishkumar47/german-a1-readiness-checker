@@ -11,3 +11,39 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.celebration-banner {
+  animation: celebration-pop 550ms ease-out both;
+}
+
+.celebration-confetti {
+  position: absolute;
+  top: -12px;
+  width: 7px;
+  height: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  animation: celebration-fall 2.8s ease-in infinite;
+}
+
+@keyframes celebration-pop {
+  0% { opacity: 0; transform: scale(0.94) translateY(8px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes celebration-fall {
+  0% { opacity: 0; transform: translateY(0) rotate(0deg); }
+  12% { opacity: 0.9; }
+  100% { opacity: 0; transform: translateY(220px) rotate(540deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .celebration-banner,
+  .celebration-confetti {
+    animation: none;
+  }
+
+  .celebration-confetti {
+    opacity: 0.7;
+  }
+}

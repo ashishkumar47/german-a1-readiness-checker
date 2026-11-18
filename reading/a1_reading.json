@@ -11,7 +11,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Finding key details in a personal profile",
-        "practiceTip":  "Read short profiles and underline names, places, ages, jobs, and study subjects before answering."
+        "practiceTip":  "Read short profiles and underline names, places, ages, jobs, and study subjects before answering.",
+        "explanation":  "The passage says Anna wohnt in Berlin (she lives in Berlin)."
     },
     {
         "id":  "r2",
@@ -25,7 +26,8 @@
                     ],
         "correctAnswer":  3,
         "topic":  "Finding key details in a personal profile",
-        "practiceTip":  "Read short profiles and underline names, places, ages, jobs, and study subjects before answering."
+        "practiceTip":  "Read short profiles and underline names, places, ages, jobs, and study subjects before answering.",
+        "explanation":  "The passage states that Anna lernt Medizin (studies medicine)."
     },
     {
         "id":  "r3",
@@ -39,7 +41,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Understanding notices and schedules",
-        "practiceTip":  "Practise reading opening hours and notices; scan for dates, times, and explicit details."
+        "practiceTip":  "Practise reading opening hours and notices; scan for dates, times, and explicit details.",
+        "explanation":  "The notice says the supermarket is closed on Sunday: Am Sonntag ist er geschlossen."
     },
     {
         "id":  "r4",
@@ -53,7 +56,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Understanding notices and schedules",
-        "practiceTip":  "Practise reading opening hours and notices; scan for dates, times, and explicit details."
+        "practiceTip":  "Practise reading opening hours and notices; scan for dates, times, and explicit details.",
+        "explanation":  "The notice lists bread, milk, fruit, and vegetables. Clothing is not listed."
     },
     {
         "id":  "r5",
@@ -67,7 +71,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Following daily routines and sequence",
-        "practiceTip":  "Read short routine texts and note the order of events, times, and transport details."
+        "practiceTip":  "Read short routine texts and note the order of events, times, and transport details.",
+        "explanation":  "The passage says Tom fÃ¤hrt mit dem Bus zur Arbeit (takes the bus to work)."
     },
     {
         "id":  "r6",
@@ -81,7 +86,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Following daily routines and sequence",
-        "practiceTip":  "Read short routine texts and note the order of events, times, and transport details."
+        "practiceTip":  "Read short routine texts and note the order of events, times, and transport details.",
+        "explanation":  "The first routine detail is Ich stehe um 7 Uhr auf (I get up at 7)."
     },
     {
         "id":  "r7",
@@ -95,7 +101,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Finding facts about people and plans",
-        "practiceTip":  "Practise identifying who, where, and why in short messages, then point to the sentence that supports each answer."
+        "practiceTip":  "Practise identifying who, where, and why in short messages, then point to the sentence that supports each answer.",
+        "explanation":  "The passage directly says Maria kommt aus Spanien (comes from Spain)."
     },
     {
         "id":  "r8",
@@ -109,7 +116,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Finding facts about people and plans",
-        "practiceTip":  "Practise identifying who, where, and why in short messages, then point to the sentence that supports each answer."
+        "practiceTip":  "Practise identifying who, where, and why in short messages, then point to the sentence that supports each answer.",
+        "explanation":  "The passage says Sie arbeitet in einem Restaurant (she works in a restaurant)."
     },
     {
         "id":  "r9",
@@ -123,7 +131,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The person buys eggs, butter, and flour and says they want to bake a cake."
     },
     {
         "id":  "r10",
@@ -137,7 +146,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The passage says Meine Mutter hat morgen Geburtstag (my mother has a birthday tomorrow)."
     },
     {
         "id":  "r11",
@@ -151,7 +161,8 @@
                     ],
         "correctAnswer":  3,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The text says the sun is shining and it is warm: Die Sonne scheint und es ist warm."
     },
     {
         "id":  "r12",
@@ -165,7 +176,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The passage directly says the children play football in the park: Die Kinder spielen FuÃŸball."
     },
     {
         "id":  "r13",
@@ -179,7 +191,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The invitation says the party is on Friday at 19:00: am Freitag um 19 Uhr."
     },
     {
         "id":  "r14",
@@ -193,7 +206,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "Lisa asks Sara to bring something to drink: Bitte bring etwas zu trinken mit."
     },
     {
         "id":  "r15",
@@ -207,7 +221,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The passage identifies Herr MÃ¼ller as a teacher: Herr MÃ¼ller ist Lehrer."
     },
     {
         "id":  "r16",
@@ -221,7 +236,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "It says that at the weekend he likes cycling: Am Wochenende fÃ¤hrt er gern Fahrrad."
     },
     {
         "id":  "r17",
@@ -235,7 +251,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The passage says the person goes to the university at 8:00. The question uses that as the implied class start time."
     },
     {
         "id":  "r18",
@@ -249,7 +266,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The last sentence says Am Abend koche ich fur meine Familie (in the evening I cook for my family)."
     },
     {
         "id":  "r19",
@@ -263,7 +281,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The passage says Ich bleibe zwei Wochen dort (I stay there for two weeks)."
     },
     {
         "id":  "r20",
@@ -277,6 +296,7 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Understanding descriptions and activities",
-        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage.",
+        "explanation":  "The final sentence states Mein Hotel ist in Rom (my hotel is in Rome)."
     }
 ]

@@ -29,11 +29,13 @@ export default function AssessmentScreen({ onComplete }: AssessmentScreenProps) 
   };
 
   function handleSelect(optionIndex: number) {
-    setAnswers((prev) =>
-      prev.map((a, i) =>
-        i === currentIndex ? { ...a, selectedOption: optionIndex } : a
-      )
-    );
+    setAnswers((prev) => {
+      if (prev[currentIndex].selectedOption !== null) return prev;
+
+      return prev.map((answer, index) =>
+        index === currentIndex ? { ...answer, selectedOption: optionIndex } : answer
+      );
+    });
   }
 
   function handleNext() {
@@ -81,14 +83,22 @@ export default function AssessmentScreen({ onComplete }: AssessmentScreenProps) 
       <div className="space-y-3 mb-8 flex-1">
         {currentQuestion.options.map((option, idx) => {
           const isSelected = currentAnswer.selectedOption === idx;
+          const hasAnswered = currentAnswer.selectedOption !== null;
+          const isCorrectOption = currentQuestion.correctAnswer === idx;
           return (
             <button
               key={idx}
               onClick={() => handleSelect(idx)}
+              disabled={hasAnswered}
+              aria-pressed={isSelected}
               className={`
                 w-full text-left rounded-xl border-2 p-4 transition-all duration-200
                 ${
-                  isSelected
+                  hasAnswered && isCorrectOption
+                    ? 'border-green-600 bg-green-50 text-green-800'
+                    : hasAnswered && isSelected
+                    ? 'border-red-500 bg-red-50 text-red-800'
+                    : isSelected
                     ? 'border-primary-600 bg-primary-50 text-primary-800 shadow-sm'
                     : 'border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50 text-gray-700'
                 }
@@ -102,6 +112,28 @@ export default function AssessmentScreen({ onComplete }: AssessmentScreenProps) 
           );
         })}
       </div>
+
+      {currentAnswer.selectedOption !== null && (
+        <section
+          className={`mb-6 rounded-xl border p-4 ${
+            currentAnswer.selectedOption === currentQuestion.correctAnswer
+              ? 'border-green-200 bg-green-50'
+              : 'border-amber-200 bg-amber-50'
+          }`}
+          role="status"
+          aria-live="polite"
+        >
+          <p className="font-semibold text-gray-900">
+            {currentAnswer.selectedOption === currentQuestion.correctAnswer
+              ? 'Correct!'
+              : 'Not quite.'}{' '}
+            Correct answer: {currentQuestion.options[currentQuestion.correctAnswer]}
+          </p>
+          <p className="mt-1 text-sm text-gray-700">
+            {currentQuestion.explanation ?? 'This is the correct answer for this question.'}
+          </p>
+        </section>
+      )}
 
       {/* Navigation */}
       <div className="flex justify-between gap-4 pt-4 border-t border-gray-100">

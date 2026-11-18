@@ -7,6 +7,7 @@ import readingData from '../../reading/a1_reading.json';
 interface RawQuestion {
   id: string;
   question: string;
+  explanation?: string;
   topic?: string;
   practiceTip?: string;
   passage?: string;
@@ -34,6 +35,7 @@ function mapQuestions(raw: RawQuestion[], category: QuestionCategory): Question[
     id: index,
     category,
     question: q.question,
+    explanation: q.explanation,
     topic: q.topic ?? (category === 'vocabulary' ? 'Everyday vocabulary' : category === 'grammar' ? 'A1 grammar' : 'Reading comprehension'),
     practiceTip: q.practiceTip ?? 'Review the question pattern and practise a few similar A1 examples.',
     passage: q.passage,

@@ -13,6 +13,8 @@ export interface Question {
   passage?: string;
   /** The question text */
   question: string;
+  /** Explanation shown after the learner selects an answer. */
+  explanation?: string;
   /** Skill focus used to generate targeted practice recommendations. */
   topic: string;
   practiceTip: string;

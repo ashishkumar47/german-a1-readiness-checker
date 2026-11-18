@@ -10,7 +10,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Everyday objects and people",
-        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das.",
+        "explanation":  "Tisch means table in English. The article der is part of the noun and should be learned with the word."
     },
     {
         "id":  "v2",
@@ -23,7 +24,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Everyday objects and people",
-        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das.",
+        "explanation":  "Apfel is the German word for apple. Its noun article is der."
     },
     {
         "id":  "v3",
@@ -36,7 +38,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Everyday objects and people",
-        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das.",
+        "explanation":  "Klein means small, the opposite of gross (big)."
     },
     {
         "id":  "v4",
@@ -49,7 +52,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Everyday objects and people",
-        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das.",
+        "explanation":  "Schwester means sister, a female sibling."
     },
     {
         "id":  "v5",
@@ -62,7 +66,8 @@
                     ],
         "correctAnswer":  3,
         "topic":  "Food, colors, and descriptions",
-        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases.",
+        "explanation":  "Dienstag means Tuesday, the day after Montag (Monday)."
     },
     {
         "id":  "v6",
@@ -75,7 +80,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Food, colors, and descriptions",
-        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases.",
+        "explanation":  "Kueche means kitchen."
     },
     {
         "id":  "v7",
@@ -88,7 +94,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Food, colors, and descriptions",
-        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases.",
+        "explanation":  "Hund means dog."
     },
     {
         "id":  "v8",
@@ -101,7 +108,8 @@
                     ],
         "correctAnswer":  3,
         "topic":  "Food, colors, and descriptions",
-        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases.",
+        "explanation":  "Rot is the German color word for red."
     },
     {
         "id":  "v9",
@@ -114,7 +122,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Daily actions and routines",
-        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action.",
+        "explanation":  "Trinken means to drink."
     },
     {
         "id":  "v10",
@@ -127,7 +136,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Daily actions and routines",
-        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action.",
+        "explanation":  "Wasser means water. It is a neuter noun: das Wasser."
     },
     {
         "id":  "v11",
@@ -140,7 +150,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "Daily actions and routines",
-        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action.",
+        "explanation":  "Guten Morgen is the usual German greeting for good morning."
     },
     {
         "id":  "v12",
@@ -153,7 +164,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Daily actions and routines",
-        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action.",
+        "explanation":  "Schule means school."
     },
     {
         "id":  "v13",
@@ -166,7 +178,8 @@
                     ],
         "correctAnswer":  3,
         "topic":  "Places, numbers, and time",
-        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life.",
+        "explanation":  "Sprechen means to speak."
     },
     {
         "id":  "v14",
@@ -179,7 +192,8 @@
                     ],
         "correctAnswer":  0,
         "topic":  "Places, numbers, and time",
-        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life.",
+        "explanation":  "Bruder means brother, a male sibling."
     },
     {
         "id":  "v15",
@@ -192,7 +206,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Places, numbers, and time",
-        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life.",
+        "explanation":  "Sieben is the German word for the number 7."
     },
     {
         "id":  "v16",
@@ -205,7 +220,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "Places, numbers, and time",
-        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life.",
+        "explanation":  "Brot means bread."
     },
     {
         "id":  "v17",
@@ -218,7 +234,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "People, objects, and basic adjectives",
-        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word.",
+        "explanation":  "Blume means flower."
     },
     {
         "id":  "v18",
@@ -231,7 +248,8 @@
                     ],
         "correctAnswer":  2,
         "topic":  "People, objects, and basic adjectives",
-        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word.",
+        "explanation":  "Schlafen means to sleep."
     },
     {
         "id":  "v19",
@@ -244,7 +262,8 @@
                     ],
         "correctAnswer":  1,
         "topic":  "People, objects, and basic adjectives",
-        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word.",
+        "explanation":  "Arzt means doctor (a male doctor); the feminine form is Aerztin."
     },
     {
         "id":  "v20",
@@ -257,6 +276,7 @@
                     ],
         "correctAnswer":  2,
         "topic":  "People, objects, and basic adjectives",
-        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word.",
+        "explanation":  "Kalt means cold."
     }
 ]
