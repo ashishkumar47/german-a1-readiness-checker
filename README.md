@@ -1,60 +1,60 @@
 # German A1 Exam Readiness Checker
 
-Ek lightweight, responsive React app jo German A1 learners ko Vocabulary, Grammar aur Reading ke short assessment ke zariye apni preparation check karne mein help karti hai. Har attempt mein 15 randomized multiple-choice questions aate hain. Result mein overall score, category breakdown, readiness level aur targeted practice tips milte hain.
+A lightweight, responsive React application that helps German A1 learners assess their preparation through short Vocabulary, Grammar, and Reading exercises. Each attempt contains 15 randomized multiple-choice questions. At the end, learners see their overall score, category breakdown, readiness level, and targeted practice tips.
 
-> Yeh app ek practice aur readiness estimate deta hai. Iska score Goethe ya ÖSD ka official exam result ya certification nahi hai.
+> This app provides a practice-based readiness estimate. Its score is not an official Goethe or OSD exam result or certification.
 
 ## Live app
 
-[German A1 Readiness Checker kholo](https://german-a1-readiness-checker.vercel.app/)
+[Open the German A1 Readiness Checker](https://german-a1-readiness-checker.vercel.app/)
 
 ## Features
 
-- Vocabulary, Grammar aur Reading mein se 5-5 questions: total 15 questions.
-- Har attempt mein question banks se random selection.
-- Ek waqt mein ek question, progress bar, aur Previous/Next navigation.
-- Pehla selected answer lock ho jata hai. Uske baad sahi answer aur uski explanation dikhai deti hai.
-- Score ke saath category-wise breakdown aur kamzor topics ke liye top practice recommendations.
-- Readiness levels: 60% se kam `Needs Practice`, 60% se 79% `Almost Ready`, 80% ya zyada `Ready`.
-- `Ready` result par success banner aur confetti-style celebration.
-- Retake option se naya randomized question set.
+- Five questions each in Vocabulary, Grammar, and Reading: 15 questions total.
+- Questions are randomly selected from the category banks for each attempt.
+- One question at a time, with a progress bar and Previous/Next navigation.
+- The first selected answer is locked. The correct answer and an explanation appear after selection.
+- Overall score, category breakdown, and up to three practice recommendations for missed topics.
+- Readiness levels: below 60% is `Needs Practice`, 60% to 79% is `Almost Ready`, and 80% or above is `Ready`.
+- A success banner and confetti-style celebration appear for `Ready` results.
+- Retaking starts a fresh randomized question set.
 
-## Technology
+## Technology stack
 
 - React 18
 - TypeScript
 - Vite 6
 - Tailwind CSS 3
-- PostCSS aur Autoprefixer
+- PostCSS and Autoprefixer
 
-## Local setup
+## Run locally
 
 ### Requirements
 
-- Node.js aur npm installed hone chahiye.
-- Terminal mein project folder tak jaayein.
+- Node.js and npm installed on your machine.
+- A terminal opened in the project directory.
 
-### Install aur start
+### Install dependencies and start the development server
 
 ```bash
 npm install
 npm run dev
 ```
 
-Vite terminal mein local URL dikhayega. Aam taur par woh `http://localhost:5173/` hota hai. URL browser mein kholkar app use karein. Development server ko rokne ke liye terminal mein `Ctrl+C` dabayein.
+Vite prints a local URL in the terminal. It is usually `http://localhost:5173/`. Open that URL in a browser to use the app. Press `Ctrl+C` in the terminal to stop the development server.
 
-### Production build
+### Create and preview a production build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-`npm run build` pehle TypeScript project build check chalata hai aur phir Vite optimized files `dist/` folder mein banata hai. `npm run preview` us production build ko local preview server par serve karta hai.
+`npm run build` runs the TypeScript project build check and creates optimized production files in `dist/`. `npm run preview` serves that production build locally.
 
 ## Architecture
 
-App ek single-page React app hai. `App.tsx` teen screens ke beech navigation aur shared state sambhalta hai. Question content JSON files mein hai, question selection `questions.ts` mein hoti hai, aur scoring `scoring.ts` mein UI se alag calculate hoti hai.
+This is a single-page React application. `App.tsx` coordinates navigation between the three screens and holds shared state. Question content lives in JSON files, question selection is handled by `questions.ts`, and scoring is calculated separately from the UI in `scoring.ts`.
 
 ```mermaid
 flowchart TD
@@ -72,23 +72,23 @@ flowchart TD
 
 ### Main data flow
 
-1. `src/main.tsx` browser ke `#root` element mein `App` render karta hai.
-2. `src/App.tsx` pehle `WelcomeScreen` dikhata hai. User naam submit kare to naam save hota hai aur assessment screen khulti hai.
-3. `src/data/questions.ts` teen active JSON question banks se har category ke 5 questions randomly select karta hai. Assessment mount hone par yeh selection ek baar banti hai.
-4. `AssessmentScreen` ek question dikhata hai aur user ka pehla selected option save karta hai. Option lock hone ke baad UI selected answer ka feedback, correct option aur explanation dikhati hai.
-5. Final question submit hone par `calculateResult()` correct answers, percentage, category scores aur missed topics calculate karta hai.
-6. `ResultScreen` readiness level aur practice suggestions dikhata hai. Score 80% ya zyada ho to celebration banner aur confetti dikhte hain.
-7. Retake se Welcome screen par wapas jaate hain. Naya attempt start karne par assessment remount hota hai aur fresh random set milta hai.
+1. `src/main.tsx` renders `App` into the browser's `#root` element.
+2. `src/App.tsx` first displays `WelcomeScreen`. When the user submits a name, the name is saved and the assessment begins.
+3. `src/data/questions.ts` loads the three active JSON question banks, then randomly selects five questions from each category. The selection is created once when the assessment screen mounts.
+4. `AssessmentScreen` displays one question at a time and saves the user's first selected option. The option is locked, then feedback shows whether it was correct, the correct answer, and its explanation.
+5. Submitting the final question calls `calculateResult()`, which calculates correct answers, the percentage, category scores, and missed topics.
+6. `ResultScreen` shows the readiness level and practice recommendations. Scores of 80% or above also trigger a celebration banner and confetti.
+7. Retake returns the user to the welcome screen. Starting again remounts the assessment and creates a fresh randomized question set.
 
 ## Readiness calculation
 
-| Score | Level | Result message |
+| Score | Level | Guidance |
 | --- | --- | --- |
-| Below 60% | Needs Practice | Weak areas par focus karein |
-| 60% to 79% | Almost Ready | Kamzor topics review karein |
-| 80% or above | Ready | Readiness check pass; celebration dikhai deti hai |
+| Below 60% | Needs Practice | Focus on the weaker areas |
+| 60% to 79% | Almost Ready | Review missed topics and try again |
+| 80% or above | Ready | Meets this app's readiness benchmark; celebration is shown |
 
-Har sahi answer 1 point deta hai. Galat answer 0 points deta hai; negative marking nahi hai. Result `correct / total` ke percentage se banta hai. Assessment screen par har question ka answer zaroori hai, isliye user unanswered question ke saath aage nahi badh sakta.
+Each correct answer earns one point. Incorrect answers earn zero points; there is no negative marking. The percentage is calculated as `correct answers / total questions`. The assessment requires an answer before the user can continue, so unanswered questions cannot normally be submitted.
 
 ## Repository structure
 
@@ -106,7 +106,6 @@ Har sahi answer 1 point deta hai. Galat answer 0 points deta hai; negative marki
 │   └── mcqs.json
 ├── public/
 │   └── vite.svg
-├── README.md
 ├── src/
 │   ├── components/
 │   │   ├── screens/
@@ -128,10 +127,11 @@ Har sahi answer 1 point deta hai. Galat answer 0 points deta hai; negative marki
 │   ├── index.css
 │   └── main.tsx
 ├── index.html
+├── initial_app_building_prompt.md
 ├── package.json
 ├── package-lock.json
-├── initial_app_building_prompt.md
 ├── postcss.config.js
+├── README.md
 ├── tailwind.config.js
 ├── tsconfig.json
 ├── vite.config.ts
@@ -142,40 +142,40 @@ Har sahi answer 1 point deta hai. Galat answer 0 points deta hai; negative marki
 
 ### App entry points and screens
 
-| File | Kya karta hai |
+| File | Purpose |
 | --- | --- |
-| `index.html` | Browser HTML shell, page title, viewport settings, favicon aur `#root` element deta hai. Vite yahin se React entry point load karta hai. |
-| `src/main.tsx` | React root create karke `App` render karta hai; global stylesheet import karta hai. |
-| `src/App.tsx` | Welcome, Assessment aur Result screen ke beech navigation chalata hai. Candidate name, assessment result aur fresh-attempt key state mein rakhta hai. |
-| `src/components/screens/WelcomeScreen.tsx` | App intro, test details aur name-entry dialog dikhata hai. Valid naam submit hone par `onStart` call karta hai. |
-| `src/components/screens/AssessmentScreen.tsx` | Current question, reading passage, answer options, progress aur navigation dikhata hai. First answer lock karta hai aur feedback panel mein correct answer plus explanation show karta hai. Final submit par scoring function call karta hai. |
-| `src/components/screens/ResultScreen.tsx` | Overall score, readiness result, category breakdown aur practice recommendations dikhata hai. `Ready` result par celebration bhi dikhata hai. |
-| `src/components/screens/index.ts` | Screen components ko ek barrel export se expose karta hai. |
+| `index.html` | Provides the browser HTML shell, page title, viewport settings, favicon, and `#root` element. Vite loads the React entry point from here. |
+| `src/main.tsx` | Creates the React root, renders `App`, and imports the global stylesheet. |
+| `src/App.tsx` | Coordinates navigation between Welcome, Assessment, and Result screens. It keeps the candidate name, assessment result, and fresh-attempt key in state. |
+| `src/components/screens/WelcomeScreen.tsx` | Displays the app introduction and test details, then collects a name before starting. |
+| `src/components/screens/AssessmentScreen.tsx` | Displays the current question, reading passage, answer options, progress, and navigation. It locks the first answer and shows the correct answer and explanation. It submits the completed assessment for scoring. |
+| `src/components/screens/ResultScreen.tsx` | Displays the overall score, readiness result, category breakdown, and practice recommendations. It also shows a celebration for `Ready` results. |
+| `src/components/screens/index.ts` | Re-exports the screen components through a single barrel file. |
 
-### Data, types, scoring aur reusable UI
+### Data, types, scoring, and reusable UI
 
-| File | Kya karta hai |
+| File | Purpose |
 | --- | --- |
-| `src/data/questions.ts` | Active A1 JSON banks import karta hai, raw records map karta hai, questions shuffle karta hai, aur har category se 5 select karke 15-question set banata hai. |
-| `src/utils/scoring.ts` | Correct answers, category scores, percentage, readiness level aur missed topics ke top 3 practice tips calculate karta hai. |
-| `src/types/index.ts` | `Question`, `UserAnswer`, `AssessmentResult`, category, readiness level aur screen ke TypeScript types define karta hai. |
-| `src/components/ui/Button.tsx` | Primary, secondary aur outline variants wala reusable button deta hai. |
-| `src/components/ui/ProgressBar.tsx` | Current question aur total ke basis par progress label aur bar dikhata hai. |
-| `src/components/ui/index.ts` | UI components ko barrel export se expose karta hai. |
-| `src/index.css` | Tailwind directives, root layout aur pass celebration ke animations define karta hai. Reduced-motion preference ko bhi respect karta hai. |
+| `src/data/questions.ts` | Imports the active A1 JSON banks, maps raw records into app question objects, shuffles them, and selects five per category. |
+| `src/utils/scoring.ts` | Calculates correct answers, category scores, percentage, readiness level, and up to three practice tips for missed topics. |
+| `src/types/index.ts` | Defines the TypeScript types for `Question`, `UserAnswer`, `AssessmentResult`, categories, readiness levels, and screens. |
+| `src/components/ui/Button.tsx` | Provides a reusable button with primary, secondary, and outline variants. |
+| `src/components/ui/ProgressBar.tsx` | Displays the current question number and assessment progress. |
+| `src/components/ui/index.ts` | Re-exports reusable UI components through a single barrel file. |
+| `src/index.css` | Includes Tailwind directives, the root layout, and pass celebration animations. It also respects reduced-motion preferences. |
 
 ### Question banks
 
-| File | Kya rakhta hai |
+| File | Purpose |
 | --- | --- |
-| `vocabulary/a1_vocabulary.json` | Vocabulary ke active A1 questions aur answer explanations. |
-| `grammer/a1_grammer.json` | Grammar ke active A1 questions aur answer explanations. Folder name project mein `grammer` hi hai; imports bhi isi naam ko use karte hain. |
-| `reading/a1_reading.json` | Reading passages, comprehension questions aur passage-based explanations. |
-| `vocabulary/mcqs.json` | Additional/alternate vocabulary MCQ data; current assessment loader is file ko import nahi karta. |
-| `grammer/mcqs.json` | Additional/alternate grammar MCQ data; current assessment loader is file ko import nahi karta. |
-| `reading/mcqs.json` | Additional/alternate reading MCQ data; current assessment loader is file ko import nahi karta. |
+| `vocabulary/a1_vocabulary.json` | Active A1 vocabulary questions and answer explanations. |
+| `grammer/a1_grammer.json` | Active A1 grammar questions and answer explanations. The folder is named `grammer` in this project, and imports use that spelling. |
+| `reading/a1_reading.json` | Reading passages, comprehension questions, and passage-based explanations. |
+| `vocabulary/mcqs.json` | Additional or alternate vocabulary MCQ data; the current assessment loader does not import this file. |
+| `grammer/mcqs.json` | Additional or alternate grammar MCQ data; the current assessment loader does not import this file. |
+| `reading/mcqs.json` | Additional or alternate reading MCQ data; the current assessment loader does not import this file. |
 
-Active `a1_*.json` question record ka shape roughly yeh hai:
+An active `a1_*.json` question record has roughly this shape:
 
 ```json
 {
@@ -189,35 +189,36 @@ Active `a1_*.json` question record ka shape roughly yeh hai:
 }
 ```
 
-`correctAnswer` zero-based option index hai: pehla option `0`, doosra `1`, teesra `2`, chautha `3`. Har active question mein exactly four options rakhein. Reading record mein `passage` bhi add karein. New question add karte waqt unique `id`, correct index, explanation, topic aur useful `practiceTip` dena behtar hai.
+`correctAnswer` is a zero-based option index: the first option is `0`, the second is `1`, the third is `2`, and the fourth is `3`. Keep exactly four options in each active question. Reading records also include a `passage`. When adding a question, provide a unique `id`, the correct option index, an explanation, a topic, and a useful `practiceTip`.
 
 ### Project configuration and supporting files
 
-| File | Kya karta hai |
+| File | Purpose |
 | --- | --- |
-| `package.json` | Project scripts aur React/Vite/TypeScript/Tailwind dependencies define karta hai. |
-| `package-lock.json` | npm dependency versions lock karta hai, taaki installs consistent rahen. |
-| `vite.config.ts` | React plugin enable karta hai aur `@/` alias ko `src/` se map karta hai. |
-| `tsconfig.json` | TypeScript compiler options, strict checks, JSON imports aur `@/*` path alias define karta hai. |
-| `vite-env.d.ts` | Vite client-side type declarations enable karta hai. |
-| `tailwind.config.js` | Tailwind content paths, primary colors aur sans-serif font define karta hai. |
-| `postcss.config.js` | Tailwind CSS aur Autoprefixer ko PostCSS ke zariye process karta hai. |
-| `.gitignore` | `node_modules`, build output, IDE files aur local env files ko Git se ignore karta hai. |
-| `public/vite.svg` | Static Vite favicon; `index.html` mein reference hota hai. |
-| `initial_app_building_prompt.md` | Project ko shuru karne ke liye original product/build brief. Runtime code ka hissa nahi hai. |
+| `package.json` | Defines project scripts and React, Vite, TypeScript, and Tailwind dependencies. |
+| `package-lock.json` | Locks npm dependency versions to keep installs consistent. |
+| `vite.config.ts` | Enables the React plugin and maps the `@/` alias to `src/`. |
+| `tsconfig.json` | Defines TypeScript compiler options, strict checks, JSON imports, and the `@/*` path alias. |
+| `vite-env.d.ts` | Enables Vite client-side type declarations. |
+| `tailwind.config.js` | Defines Tailwind content paths, primary colors, and the sans-serif font stack. |
+| `postcss.config.js` | Runs Tailwind CSS and Autoprefixer through PostCSS. |
+| `.gitignore` | Excludes `node_modules`, build output, IDE files, and local environment files from Git. |
+| `public/vite.svg` | Static Vite favicon referenced by `index.html`. |
+| `initial_app_building_prompt.md` | The original product and build brief; it is not part of the runtime app. |
+| `README.md` | Project overview, architecture, setup, user flow, and file reference. |
 
 ## Deployment notes
 
-Vercel deployment ke liye Vite project ko in settings ki zaroorat hoti hai:
+For a Vercel deployment, use these Vite project settings:
 
 - Build command: `npm run build`
 - Output directory: `dist`
 - Install command: `npm install`
 
-Live deployment yahan hai: [german-a1-readiness-checker.vercel.app](https://german-a1-readiness-checker.vercel.app/).
+Live deployment: [german-a1-readiness-checker.vercel.app](https://german-a1-readiness-checker.vercel.app/).
 
 ## Scope notes
 
-- App frontend-only hai: is repo mein backend API, database, authentication ya user account flow nahi hai.
-- Question pools bundled JSON files se aate hain; deployment ke baad question edits ke liye naya build/deploy chahiye.
-- Har attempt mein har category se 5 questions select hote hain, isliye active pools mein kam se kam 5 valid records per category hone chahiye.
+- The app is frontend-only. This repository does not include a backend API, database, authentication, or user accounts.
+- Question pools are bundled JSON files. Changes to questions require a new build and deployment to appear in the live app.
+- Each attempt selects five questions from each category, so every active category pool must contain at least five valid records.
