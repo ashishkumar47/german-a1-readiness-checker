@@ -1,0 +1,679 @@
+
+{
+  "language": "German",
+  "level": "A1",
+  "category": "Grammar",
+  "total_questions": 70,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Definite Articles",
+      "question": "___ Mann ist sehr nett.",
+      "translation": "The man is very nice.",
+      "options": ["Der", "Die", "Das", "Ein"],
+      "correct_answer": "Der",
+      "explanation": "Mann is masculine, so the definite article is Der."
+    },
+    {
+      "id": 2,
+      "topic": "Definite Articles",
+      "question": "___ Frau kommt aus Berlin.",
+      "translation": "The woman comes from Berlin.",
+      "options": ["Der", "Das", "Die", "Ein"],
+      "correct_answer": "Die",
+      "explanation": "Frau is feminine, so the definite article is Die."
+    },
+    {
+      "id": 3,
+      "topic": "Definite Articles",
+      "question": "___ Kind spielt im Garten.",
+      "translation": "The child is playing in the garden.",
+      "options": ["Der", "Die", "Das", "Den"],
+      "correct_answer": "Das",
+      "explanation": "Kind is neuter, so the definite article is Das."
+    },
+    {
+      "id": 4,
+      "topic": "Definite Articles",
+      "question": "___ Bücher sind interessant.",
+      "translation": "The books are interesting.",
+      "options": ["Der", "Die", "Das", "Ein"],
+      "correct_answer": "Die",
+      "explanation": "Die is used as the definite article for plural nouns."
+    },
+    {
+      "id": 5,
+      "topic": "Indefinite Articles",
+      "question": "Das ist ___ Apfel.",
+      "translation": "That is an apple.",
+      "options": ["Eine", "Ein", "Einen", "Der"],
+      "correct_answer": "Ein",
+      "explanation": "Apfel is masculine. Ein is used for masculine nouns in the nominative case."
+    },
+    {
+      "id": 6,
+      "topic": "Indefinite Articles",
+      "question": "Ich habe ___ Katze.",
+      "translation": "I have a cat.",
+      "options": ["Ein", "Eine", "Einen", "Der"],
+      "correct_answer": "Eine",
+      "explanation": "Katze is feminine. Eine is used for feminine nouns in the accusative case."
+    },
+    {
+      "id": 7,
+      "topic": "Indefinite Articles",
+      "question": "Er kauft ___ Auto.",
+      "translation": "He buys a car.",
+      "options": ["Eine", "Ein", "Einen", "Der"],
+      "correct_answer": "Ein",
+      "explanation": "Auto is neuter. Ein remains Ein in the accusative case."
+    },
+    {
+      "id": 8,
+      "topic": "Indefinite Articles",
+      "question": "Das ist ___ Lehrerin.",
+      "translation": "That is a female teacher.",
+      "options": ["Ein", "Einen", "Eine", "Der"],
+      "correct_answer": "Eine",
+      "explanation": "Lehrerin is feminine, so the indefinite article is Eine."
+    },
+    {
+      "id": 9,
+      "topic": "Definite Articles",
+      "question": "Ich sehe ___ Hund.",
+      "translation": "I see the dog.",
+      "options": ["Der", "Den", "Das", "Die"],
+      "correct_answer": "Den",
+      "explanation": "Hund is masculine and is the direct object. Der changes to Den in the accusative case."
+    },
+    {
+      "id": 10,
+      "topic": "Definite Articles",
+      "question": "Sie liest ___ Zeitung.",
+      "translation": "She reads the newspaper.",
+      "options": ["Der", "Den", "Die", "Das"],
+      "correct_answer": "Die",
+      "explanation": "Zeitung is feminine. Die remains Die in the accusative case."
+    },
+    {
+      "id": 11,
+      "topic": "Verb Conjugation",
+      "question": "Ich ___ Deutsch.",
+      "translation": "I learn German.",
+      "options": ["lernst", "lernt", "lernen", "lerne"],
+      "correct_answer": "lerne",
+      "explanation": "The verb lernen takes the ending -e with ich."
+    },
+    {
+      "id": 12,
+      "topic": "Verb Conjugation",
+      "question": "Du ___ Fußball.",
+      "translation": "You play football.",
+      "options": ["spiele", "spielst", "spielt", "spielen"],
+      "correct_answer": "spielst",
+      "explanation": "Regular verbs take the ending -st with du."
+    },
+    {
+      "id": 13,
+      "topic": "Verb Conjugation",
+      "question": "Er ___ jeden Tag Kaffee.",
+      "translation": "He drinks coffee every day.",
+      "options": ["trinke", "trinkst", "trinkt", "trinken"],
+      "correct_answer": "trinkt",
+      "explanation": "Trinken takes the ending -t with er."
+    },
+    {
+      "id": 14,
+      "topic": "Verb Conjugation",
+      "question": "Wir ___ in Berlin.",
+      "translation": "We live in Berlin.",
+      "options": ["wohne", "wohnst", "wohnt", "wohnen"],
+      "correct_answer": "wohnen",
+      "explanation": "The verb wohnen takes the ending -en with wir."
+    },
+    {
+      "id": 15,
+      "topic": "Verb Conjugation",
+      "question": "Ihr ___ sehr schnell.",
+      "translation": "You all run very fast.",
+      "options": ["laufe", "läufst", "lauft", "laufen"],
+      "correct_answer": "lauft",
+      "explanation": "The verb laufen takes the ending -t with ihr."
+    },
+    {
+      "id": 16,
+      "topic": "Verb Conjugation",
+      "question": "Sie (formal) ___ Englisch.",
+      "translation": "You speak English.",
+      "options": ["spreche", "sprichst", "spricht", "sprechen"],
+      "correct_answer": "sprechen",
+      "explanation": "Formal Sie uses the infinitive form ending -en."
+    },
+    {
+      "id": 17,
+      "topic": "Verb Conjugation",
+      "question": "Meine Mutter ___ heute.",
+      "translation": "My mother works today.",
+      "options": ["arbeite", "arbeitest", "arbeitet", "arbeiten"],
+      "correct_answer": "arbeitet",
+      "explanation": "Meine Mutter is third-person singular, so arbeiten becomes arbeitet."
+    },
+    {
+      "id": 18,
+      "topic": "Verb Conjugation",
+      "question": "Ihr ___ Musik.",
+      "translation": "You all listen to music.",
+      "options": ["höre", "hörst", "hört", "hören"],
+      "correct_answer": "hört",
+      "explanation": "The verb hören takes the ending -t with ihr."
+    },
+    {
+      "id": 19,
+      "topic": "Verb Conjugation",
+      "question": "Ich ___ müde.",
+      "translation": "I am tired.",
+      "options": ["bist", "bin", "ist", "sind"],
+      "correct_answer": "bin",
+      "explanation": "The verb sein is irregular. Its ich form is bin."
+    },
+    {
+      "id": 20,
+      "topic": "Verb Conjugation",
+      "question": "Du ___ sehr nett.",
+      "translation": "You are very nice.",
+      "options": ["bin", "ist", "bist", "sind"],
+      "correct_answer": "bist",
+      "explanation": "The verb sein takes the form bist with du."
+    },
+    {
+      "id": 21,
+      "topic": "Personal Pronouns",
+      "question": "Maria ist meine Schwester. ___ ist nett.",
+      "translation": "Maria is my sister. She is nice.",
+      "options": ["Er", "Sie", "Es", "Wir"],
+      "correct_answer": "Sie",
+      "explanation": "Sie is the personal pronoun for a feminine person."
+    },
+    {
+      "id": 22,
+      "topic": "Personal Pronouns",
+      "question": "Peter ist mein Bruder. ___ ist 20 Jahre alt.",
+      "translation": "Peter is my brother. He is 20 years old.",
+      "options": ["Sie", "Es", "Er", "Ihr"],
+      "correct_answer": "Er",
+      "explanation": "Er is the personal pronoun for a masculine person."
+    },
+    {
+      "id": 23,
+      "topic": "Personal Pronouns",
+      "question": "Das Baby schläft. ___ ist müde.",
+      "translation": "The baby is sleeping. It is tired.",
+      "options": ["Er", "Sie", "Es", "Du"],
+      "correct_answer": "Es",
+      "explanation": "Das Baby is grammatically neuter, so the pronoun is Es."
+    },
+    {
+      "id": 24,
+      "topic": "Personal Pronouns",
+      "question": "Tom und ich spielen Fußball. ___ sind Freunde.",
+      "translation": "Tom and I play football. We are friends.",
+      "options": ["Sie", "Wir", "Ihr", "Er"],
+      "correct_answer": "Wir",
+      "explanation": "Wir means we and refers to Tom and the speaker."
+    },
+    {
+      "id": 25,
+      "topic": "Personal Pronouns",
+      "question": "Anna und Lisa sind hier. ___ lernen Deutsch.",
+      "translation": "Anna and Lisa are here. They learn German.",
+      "options": ["Wir", "Ihr", "Sie", "Es"],
+      "correct_answer": "Sie",
+      "explanation": "Sie means they when referring to multiple people."
+    },
+    {
+      "id": 26,
+      "topic": "Personal Pronouns",
+      "question": "Paul, ___ bist mein Freund.",
+      "translation": "Paul, you are my friend.",
+      "options": ["du", "er", "sie", "wir"],
+      "correct_answer": "du",
+      "explanation": "Du is the informal singular pronoun for you."
+    },
+    {
+      "id": 27,
+      "topic": "Personal Pronouns",
+      "question": "Herr Müller, ___ sind sehr freundlich.",
+      "translation": "Mr. Müller, you are very friendly.",
+      "options": ["du", "er", "Sie", "ihr"],
+      "correct_answer": "Sie",
+      "explanation": "Formal Sie is used to address someone politely."
+    },
+    {
+      "id": 28,
+      "topic": "Personal Pronouns",
+      "question": "Kinder, ___ seid sehr laut!",
+      "translation": "Children, you are very loud!",
+      "options": ["du", "ihr", "sie", "wir"],
+      "correct_answer": "ihr",
+      "explanation": "Ihr is the informal plural pronoun for you."
+    },
+    {
+      "id": 29,
+      "topic": "Personal Pronouns",
+      "question": "Meine Eltern sind zu Hause. ___ kochen.",
+      "translation": "My parents are at home. They are cooking.",
+      "options": ["Er", "Wir", "Sie", "Ihr"],
+      "correct_answer": "Sie",
+      "explanation": "Sie means they when referring to multiple people."
+    },
+    {
+      "id": 30,
+      "topic": "Personal Pronouns",
+      "question": "Ich und mein Bruder lernen. ___ lernen zusammen.",
+      "translation": "My brother and I study. We study together.",
+      "options": ["Ihr", "Wir", "Sie", "Er"],
+      "correct_answer": "Wir",
+      "explanation": "Wir means we and refers to the speaker and another person."
+    },
+    {
+      "id": 31,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct sentence.",
+      "translation": "I drink water.",
+      "options": [
+        "Ich Wasser trinke.",
+        "Trinke ich Wasser.",
+        "Ich trinke Wasser.",
+        "Wasser ich trinke."
+      ],
+      "correct_answer": "Ich trinke Wasser.",
+      "explanation": "In a basic German statement, the conjugated verb usually comes in the second position."
+    },
+    {
+      "id": 32,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct sentence.",
+      "translation": "She lives in Hamburg.",
+      "options": [
+        "Sie in Hamburg wohnt.",
+        "Sie wohnt in Hamburg.",
+        "Wohnt Sie in Hamburg.",
+        "In Hamburg Sie wohnt."
+      ],
+      "correct_answer": "Sie wohnt in Hamburg.",
+      "explanation": "The subject comes first and the conjugated verb comes second in a basic statement."
+    },
+    {
+      "id": 33,
+      "topic": "Basic Sentence Structure",
+      "question": "Complete the sentence: Heute ___ ich Deutsch.",
+      "translation": "Today I learn German.",
+      "options": ["lerne", "ich", "Deutsch", "lernen"],
+      "correct_answer": "lerne",
+      "explanation": "When Heute comes first, the conjugated verb must come second, before the subject."
+    },
+    {
+      "id": 34,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct question.",
+      "translation": "Do you speak German?",
+      "options": [
+        "Du sprichst Deutsch?",
+        "Sprichst du Deutsch?",
+        "Deutsch du sprichst?",
+        "Du Deutsch sprichst?"
+      ],
+      "correct_answer": "Sprichst du Deutsch?",
+      "explanation": "A yes/no question in German starts with the conjugated verb."
+    },
+    {
+      "id": 35,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct sentence.",
+      "translation": "We go to school today.",
+      "options": [
+        "Wir heute gehen zur Schule.",
+        "Heute wir gehen zur Schule.",
+        "Heute gehen wir zur Schule.",
+        "Gehen heute wir zur Schule."
+      ],
+      "correct_answer": "Heute gehen wir zur Schule.",
+      "explanation": "When Heute is first, gehen comes second and the subject follows."
+    },
+    {
+      "id": 36,
+      "topic": "Basic Sentence Structure",
+      "question": "Complete the sentence: Wo ___ du?",
+      "translation": "Where do you live?",
+      "options": ["wohne", "wohnst", "wohnt", "wohnen"],
+      "correct_answer": "wohnst",
+      "explanation": "With du, the verb wohnen becomes wohnst."
+    },
+    {
+      "id": 37,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct sentence.",
+      "translation": "He eats an apple.",
+      "options": [
+        "Er einen Apfel isst.",
+        "Einen Apfel er isst.",
+        "Er isst einen Apfel.",
+        "Er essen einen Apfel."
+      ],
+      "correct_answer": "Er isst einen Apfel.",
+      "explanation": "The conjugated verb comes second, and the masculine direct object uses einen."
+    },
+    {
+      "id": 38,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct sentence.",
+      "translation": "Tomorrow we visit Berlin.",
+      "options": [
+        "Morgen wir besuchen Berlin.",
+        "Morgen besuchen wir Berlin.",
+        "Wir morgen besuchen Berlin.",
+        "Besuchen morgen wir Berlin."
+      ],
+      "correct_answer": "Morgen besuchen wir Berlin.",
+      "explanation": "Morgen occupies the first position, so the verb besuchen comes second."
+    },
+    {
+      "id": 39,
+      "topic": "Basic Sentence Structure",
+      "question": "Complete the sentence: Ich ___ heute zu Hause.",
+      "translation": "I am at home today.",
+      "options": ["bin", "bist", "ist", "sind"],
+      "correct_answer": "bin",
+      "explanation": "The correct form of sein with ich is bin."
+    },
+    {
+      "id": 40,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct question.",
+      "translation": "Where is the book?",
+      "options": [
+        "Wo das Buch ist?",
+        "Wo ist das Buch?",
+        "Ist wo das Buch?",
+        "Das Buch wo ist?"
+      ],
+      "correct_answer": "Wo ist das Buch?",
+      "explanation": "In a question beginning with Wo, the conjugated verb follows the question word."
+    },
+    {
+      "id": 41,
+      "topic": "Present Tense",
+      "question": "Ich ___ jeden Morgen Kaffee.",
+      "translation": "I drink coffee every morning.",
+      "options": ["trinke", "trinkst", "trinkt", "trinken"],
+      "correct_answer": "trinke",
+      "explanation": "Trinken is conjugated as trinke with ich."
+    },
+    {
+      "id": 42,
+      "topic": "Present Tense",
+      "question": "Du ___ sehr gut Deutsch.",
+      "translation": "You speak German very well.",
+      "options": ["spreche", "sprichst", "spricht", "sprechen"],
+      "correct_answer": "sprichst",
+      "explanation": "Sprechen is a stem-changing verb. With du, e changes to i and the ending is -st."
+    },
+    {
+      "id": 43,
+      "topic": "Present Tense",
+      "question": "Meine Schwester ___ gern Musik.",
+      "translation": "My sister likes listening to music.",
+      "options": ["höre", "hörst", "hört", "hören"],
+      "correct_answer": "hört",
+      "explanation": "Meine Schwester is third-person singular, so hören becomes hört."
+    },
+    {
+      "id": 44,
+      "topic": "Present Tense",
+      "question": "Wir ___ heute Pizza.",
+      "translation": "We eat pizza today.",
+      "options": ["esse", "isst", "esst", "essen"],
+      "correct_answer": "essen",
+      "explanation": "The verb essen takes the form essen with wir."
+    },
+    {
+      "id": 45,
+      "topic": "Present Tense",
+      "question": "Ihr ___ heute Fußball.",
+      "translation": "You all play football today.",
+      "options": ["spielen", "spielst", "spielt", "spiele"],
+      "correct_answer": "spielt",
+      "explanation": "With ihr, the regular verb spielen takes the ending -t."
+    },
+    {
+      "id": 46,
+      "topic": "Present Tense",
+      "question": "Er ___ ein Buch.",
+      "translation": "He reads a book.",
+      "options": ["lese", "liest", "lesen", "lest"],
+      "correct_answer": "liest",
+      "explanation": "Lesen is a stem-changing verb. With er, e changes to ie."
+    },
+    {
+      "id": 47,
+      "topic": "Present Tense",
+      "question": "Ich ___ einen Bruder.",
+      "translation": "I have a brother.",
+      "options": ["habe", "hast", "hat", "haben"],
+      "correct_answer": "habe",
+      "explanation": "The verb haben takes the form habe with ich."
+    },
+    {
+      "id": 48,
+      "topic": "Present Tense",
+      "question": "Du ___ ein neues Handy.",
+      "translation": "You have a new mobile phone.",
+      "options": ["habe", "hast", "hat", "haben"],
+      "correct_answer": "hast",
+      "explanation": "The verb haben takes the form hast with du."
+    },
+    {
+      "id": 49,
+      "topic": "Present Tense",
+      "question": "Das Kind ___ Wasser.",
+      "translation": "The child drinks water.",
+      "options": ["trinke", "trinkst", "trinkt", "trinken"],
+      "correct_answer": "trinkt",
+      "explanation": "Das Kind is third-person singular, so trinken becomes trinkt."
+    },
+    {
+      "id": 50,
+      "topic": "Present Tense",
+      "question": "Meine Freunde ___ in München.",
+      "translation": "My friends live in Munich.",
+      "options": ["wohne", "wohnt", "wohnen", "wohnst"],
+      "correct_answer": "wohnen",
+      "explanation": "Meine Freunde is plural, so wohnen takes the ending -en."
+    },
+    {
+      "id": 51,
+      "topic": "Verb Conjugation",
+      "question": "Ich ___ aus Indien.",
+      "translation": "I come from India.",
+      "options": ["komme", "kommst", "kommt", "kommen"],
+      "correct_answer": "komme",
+      "explanation": "Kommen takes the ending -e with ich."
+    },
+    {
+      "id": 52,
+      "topic": "Verb Conjugation",
+      "question": "Woher ___ ihr?",
+      "translation": "Where do you all come from?",
+      "options": ["komme", "kommst", "kommt", "kommen"],
+      "correct_answer": "kommt",
+      "explanation": "The verb kommen takes the form kommt with ihr."
+    },
+    {
+      "id": 53,
+      "topic": "Verb Conjugation",
+      "question": "Sie (they) ___ in einem Haus.",
+      "translation": "They live in a house.",
+      "options": ["wohne", "wohnst", "wohnt", "wohnen"],
+      "correct_answer": "wohnen",
+      "explanation": "Plural Sie meaning they uses the verb form wohnen."
+    },
+    {
+      "id": 54,
+      "topic": "Verb Conjugation",
+      "question": "Der Vater ___ ein Auto.",
+      "translation": "The father drives a car.",
+      "options": ["fahre", "fährst", "fährt", "fahren"],
+      "correct_answer": "fährt",
+      "explanation": "Fahren is a stem-changing verb. With er, a changes to ä."
+    },
+    {
+      "id": 55,
+      "topic": "Verb Conjugation",
+      "question": "Du ___ gern Schokolade.",
+      "translation": "You like chocolate.",
+      "options": ["esse", "isst", "isstet", "essen"],
+      "correct_answer": "isst",
+      "explanation": "Essen is a stem-changing verb. With du, the correct form is isst."
+    },
+    {
+      "id": 56,
+      "topic": "Verb Conjugation",
+      "question": "Wir ___ einen Film.",
+      "translation": "We watch a film.",
+      "options": ["sehe", "siehst", "sieht", "sehen"],
+      "correct_answer": "sehen",
+      "explanation": "The verb sehen takes the form sehen with wir."
+    },
+    {
+      "id": 57,
+      "topic": "Definite Articles",
+      "question": "___ Mädchen spielt mit einem Ball.",
+      "translation": "The girl is playing with a ball.",
+      "options": ["Der", "Die", "Das", "Den"],
+      "correct_answer": "Das",
+      "explanation": "Mädchen is grammatically neuter, so its definite article is Das."
+    },
+    {
+      "id": 58,
+      "topic": "Indefinite Articles",
+      "question": "Ich kaufe ___ Banane.",
+      "translation": "I buy a banana.",
+      "options": ["Ein", "Eine", "Einen", "Der"],
+      "correct_answer": "Eine",
+      "explanation": "Banane is feminine, so the accusative indefinite article is Eine."
+    },
+    {
+      "id": 59,
+      "topic": "Definite Articles",
+      "question": "___ Lehrer arbeitet heute.",
+      "translation": "The teacher works today.",
+      "options": ["Der", "Die", "Das", "Den"],
+      "correct_answer": "Der",
+      "explanation": "Lehrer is masculine and is the subject, so the article is Der."
+    },
+    {
+      "id": 60,
+      "topic": "Indefinite Articles",
+      "question": "Das ist ___ Buch.",
+      "translation": "That is a book.",
+      "options": ["Eine", "Einen", "Ein", "Der"],
+      "correct_answer": "Ein",
+      "explanation": "Buch is neuter, so the indefinite article is Ein."
+    },
+    {
+      "id": 61,
+      "topic": "Personal Pronouns",
+      "question": "Lisa und du seid Freunde. ___ lernt Deutsch.",
+      "translation": "Lisa and you are friends. You are learning German.",
+      "options": ["Wir", "Ihr", "Sie", "Er"],
+      "correct_answer": "Ihr",
+      "explanation": "Ihr is used when speaking informally to two or more people."
+    },
+    {
+      "id": 62,
+      "topic": "Personal Pronouns",
+      "question": "Das Auto ist neu. ___ ist rot.",
+      "translation": "The car is new. It is red.",
+      "options": ["Er", "Sie", "Es", "Wir"],
+      "correct_answer": "Es",
+      "explanation": "Das Auto is neuter, so the correct pronoun is Es."
+    },
+    {
+      "id": 63,
+      "topic": "Present Tense",
+      "question": "Ich ___ heute nicht zur Schule.",
+      "translation": "I am not going to school today.",
+      "options": ["gehe", "gehst", "geht", "gehen"],
+      "correct_answer": "gehe",
+      "explanation": "The verb gehen takes the form gehe with ich."
+    },
+    {
+      "id": 64,
+      "topic": "Present Tense",
+      "question": "Er ___ um sieben Uhr auf.",
+      "translation": "He gets up at seven o'clock.",
+      "options": ["stehe", "stehst", "steht", "stehen"],
+      "correct_answer": "steht",
+      "explanation": "Aufstehen is a separable verb. With er, it becomes steht ... auf."
+    },
+    {
+      "id": 65,
+      "topic": "Basic Sentence Structure",
+      "question": "Choose the correct sentence.",
+      "translation": "I like to eat bread.",
+      "options": [
+        "Ich gern esse Brot.",
+        "Ich esse gern Brot.",
+        "Gern ich Brot esse.",
+        "Ich Brot gern esse."
+      ],
+      "correct_answer": "Ich esse gern Brot.",
+      "explanation": "The conjugated verb esse occupies the second position in the statement."
+    },
+    {
+      "id": 66,
+      "topic": "Basic Sentence Structure",
+      "question": "Complete the question: Wann ___ du nach Hause?",
+      "translation": "When are you going home?",
+      "options": ["gehst", "gehe", "geht", "gehen"],
+      "correct_answer": "gehst",
+      "explanation": "With du, the verb gehen becomes gehst."
+    },
+    {
+      "id": 67,
+      "topic": "Verb Conjugation",
+      "question": "Meine Eltern ___ sehr freundlich.",
+      "translation": "My parents are very friendly.",
+      "options": ["bin", "bist", "ist", "sind"],
+      "correct_answer": "sind",
+      "explanation": "The verb sein takes the form sind with plural subjects."
+    },
+    {
+      "id": 68,
+      "topic": "Present Tense",
+      "question": "Du ___ deine Hausaufgaben.",
+      "translation": "You do your homework.",
+      "options": ["mache", "machst", "macht", "machen"],
+      "correct_answer": "machst",
+      "explanation": "Machen takes the ending -st with du."
+    },
+    {
+      "id": 69,
+      "topic": "Present Tense",
+      "question": "Der Junge ___ schnell.",
+      "translation": "The boy runs fast.",
+      "options": ["laufe", "läufst", "läuft", "laufen"],
+      "correct_answer": "läuft",
+      "explanation": "Laufen is a stem-changing verb. With er, au changes to äu."
+    },
+    {
+      "id": 70,
+      "topic": "Indefinite Articles",
+      "question": "Er braucht ___ Stuhl.",
+      "translation": "He needs a chair.",
+      "options": ["Ein", "Eine", "Einen", "Der"],
+      "correct_answer": "Einen",
+      "explanation": "Stuhl is masculine and is the direct object. Ein changes to Einen in the accusative case."
+    }
+  ]
+}

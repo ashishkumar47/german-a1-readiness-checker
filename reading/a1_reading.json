@@ -1,0 +1,282 @@
+﻿[
+    {
+        "id":  "r1",
+        "passage":  "Hallo, ich heiÃŸe Anna. Ich bin 25 Jahre alt und wohne in Berlin. Ich bin Studentin und lerne Medizin. Am Wochenende treffe ich meine Freunde.",
+        "question":  "Wo wohnt Anna?",
+        "options":  [
+                        "In MÃ¼nchen",
+                        "In Hamburg",
+                        "In Berlin",
+                        "In Wien"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Finding key details in a personal profile",
+        "practiceTip":  "Read short profiles and underline names, places, ages, jobs, and study subjects before answering."
+    },
+    {
+        "id":  "r2",
+        "passage":  "Hallo, ich heiÃŸe Anna. Ich bin 25 Jahre alt und wohne in Berlin. Ich bin Studentin und lerne Medizin. Am Wochenende treffe ich meine Freunde.",
+        "question":  "Was studiert Anna?",
+        "options":  [
+                        "Musik",
+                        "Kunst",
+                        "Informatik",
+                        "Medizin"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "Finding key details in a personal profile",
+        "practiceTip":  "Read short profiles and underline names, places, ages, jobs, and study subjects before answering."
+    },
+    {
+        "id":  "r3",
+        "passage":  "Der Supermarkt ist von Montag bis Samstag von 8:00 bis 20:00 Uhr geÃ¶ffnet. Am Sonntag ist er geschlossen. Man kann dort Brot, Milch, Obst und GemÃ¼se kaufen.",
+        "question":  "Wann ist der Supermarkt geschlossen?",
+        "options":  [
+                        "Am Montag",
+                        "Am Samstag",
+                        "Am Sonntag",
+                        "Am Freitag"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Understanding notices and schedules",
+        "practiceTip":  "Practise reading opening hours and notices; scan for dates, times, and explicit details."
+    },
+    {
+        "id":  "r4",
+        "passage":  "Der Supermarkt ist von Montag bis Samstag von 8:00 bis 20:00 Uhr geÃ¶ffnet. Am Sonntag ist er geschlossen. Man kann dort Brot, Milch, Obst und GemÃ¼se kaufen.",
+        "question":  "Was kann man im Supermarkt NICHT kaufen?",
+        "options":  [
+                        "Brot",
+                        "Milch",
+                        "Kleidung",
+                        "Obst"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Understanding notices and schedules",
+        "practiceTip":  "Practise reading opening hours and notices; scan for dates, times, and explicit details."
+    },
+    {
+        "id":  "r5",
+        "passage":  "Mein Name ist Tom. Ich stehe um 7 Uhr auf. Ich frÃ¼hstÃ¼cke um halb acht. Dann fahre ich mit dem Bus zur Arbeit. Ich arbeite von 9 bis 17 Uhr.",
+        "question":  "Wie fÃ¤hrt Tom zur Arbeit?",
+        "options":  [
+                        "Mit dem Auto",
+                        "Mit dem Fahrrad",
+                        "Mit dem Bus",
+                        "Mit der U-Bahn"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Following daily routines and sequence",
+        "practiceTip":  "Read short routine texts and note the order of events, times, and transport details."
+    },
+    {
+        "id":  "r6",
+        "passage":  "Mein Name ist Tom. Ich stehe um 7 Uhr auf. Ich frÃ¼hstÃ¼cke um halb acht. Dann fahre ich mit dem Bus zur Arbeit. Ich arbeite von 9 bis 17 Uhr.",
+        "question":  "Wann steht Tom auf?",
+        "options":  [
+                        "Um 6 Uhr",
+                        "Um 7 Uhr",
+                        "Um 8 Uhr",
+                        "Um 9 Uhr"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Following daily routines and sequence",
+        "practiceTip":  "Read short routine texts and note the order of events, times, and transport details."
+    },
+    {
+        "id":  "r7",
+        "passage":  "Maria kommt aus Spanien. Sie lebt seit zwei Jahren in Deutschland. Sie arbeitet in einem Restaurant. Sie spricht Spanisch, Deutsch und ein bisschen Englisch.",
+        "question":  "Woher kommt Maria?",
+        "options":  [
+                        "Aus Italien",
+                        "Aus Frankreich",
+                        "Aus Spanien",
+                        "Aus Portugal"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Finding facts about people and plans",
+        "practiceTip":  "Practise identifying who, where, and why in short messages, then point to the sentence that supports each answer."
+    },
+    {
+        "id":  "r8",
+        "passage":  "Maria kommt aus Spanien. Sie lebt seit zwei Jahren in Deutschland. Sie arbeitet in einem Restaurant. Sie spricht Spanisch, Deutsch und ein bisschen Englisch.",
+        "question":  "Wo arbeitet Maria?",
+        "options":  [
+                        "In einer Schule",
+                        "In einem Krankenhaus",
+                        "In einem Restaurant",
+                        "In einem BÃ¼ro"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Finding facts about people and plans",
+        "practiceTip":  "Practise identifying who, where, and why in short messages, then point to the sentence that supports each answer."
+    },
+    {
+        "id":  "r9",
+        "passage":  "Am Samstag gehe ich einkaufen. Ich brauche Eier, Butter und Mehl. Ich mÃ¶chte einen Kuchen backen. Meine Mutter hat morgen Geburtstag.",
+        "question":  "Warum geht die Person einkaufen?",
+        "options":  [
+                        "FÃ¼r eine Party",
+                        "FÃ¼r einen Kuchen",
+                        "FÃ¼r das Mittagessen",
+                        "FÃ¼r das FrÃ¼hstÃ¼ck"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r10",
+        "passage":  "Am Samstag gehe ich einkaufen. Ich brauche Eier, Butter und Mehl. Ich mÃ¶chte einen Kuchen backen. Meine Mutter hat morgen Geburtstag.",
+        "question":  "Wer hat morgen Geburtstag?",
+        "options":  [
+                        "Der Vater",
+                        "Die Mutter",
+                        "Die Schwester",
+                        "Der Bruder"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r11",
+        "passage":  "Das Wetter ist heute schÃ¶n. Die Sonne scheint und es ist warm. Wir gehen in den Park. Die Kinder spielen FuÃŸball und wir essen Eis.",
+        "question":  "Wie ist das Wetter heute?",
+        "options":  [
+                        "Es regnet",
+                        "Es schneit",
+                        "Es ist kalt",
+                        "Es ist schÃ¶n und warm"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r12",
+        "passage":  "Das Wetter ist heute schÃ¶n. Die Sonne scheint und es ist warm. Wir gehen in den Park. Die Kinder spielen FuÃŸball und wir essen Eis.",
+        "question":  "Was machen die Kinder im Park?",
+        "options":  [
+                        "Sie lesen",
+                        "Sie schlafen",
+                        "Sie spielen FuÃŸball",
+                        "Sie schwimmen"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r13",
+        "passage":  "Liebe Sara, ich lade dich zu meiner Party ein. Die Party ist am Freitag um 19 Uhr bei mir zu Hause. Bitte bring etwas zu trinken mit. Viele GrÃ¼ÃŸe, Lisa.",
+        "question":  "Wann ist die Party?",
+        "options":  [
+                        "Am Samstag",
+                        "Am Donnerstag",
+                        "Am Freitag",
+                        "Am Sonntag"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r14",
+        "passage":  "Liebe Sara, ich lade dich zu meiner Party ein. Die Party ist am Freitag um 19 Uhr bei mir zu Hause. Bitte bring etwas zu trinken mit. Viele GrÃ¼ÃŸe, Lisa.",
+        "question":  "Was soll Sara mitbringen?",
+        "options":  [
+                        "Essen",
+                        "Etwas zu trinken",
+                        "Blumen",
+                        "Musik"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r15",
+        "passage":  "Herr MÃ¼ller ist Lehrer. Er unterrichtet Mathematik an einer Grundschule. Er arbeitet von Montag bis Freitag. Am Wochenende fÃ¤hrt er gern Fahrrad.",
+        "question":  "Was ist Herr MÃ¼ller von Beruf?",
+        "options":  [
+                        "Arzt",
+                        "Lehrer",
+                        "Ingenieur",
+                        "Koch"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r16",
+        "passage":  "Herr MÃ¼ller ist Lehrer. Er unterrichtet Mathematik an einer Grundschule. Er arbeitet von Montag bis Freitag. Am Wochenende fÃ¤hrt er gern Fahrrad.",
+        "question":  "Was macht Herr MÃ¼ller am Wochenende?",
+        "options":  [
+                        "Er liest",
+                        "Er kocht",
+                        "Er fÃ¤hrt Fahrrad",
+                        "Er schwimmt"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r17",
+        "passage":  "Ich gehe jeden Morgen um 8 Uhr zur UniversitÃ¤t. Der Unterricht dauert bis 14 Uhr. Danach gehe ich in die Bibliothek und lerne. Am Abend koche ich fÃ¼r meine Familie.",
+        "question":  "Wann beginnt der Unterricht?",
+        "options":  [
+                        "Um 7 Uhr",
+                        "Um 8 Uhr",
+                        "Um 9 Uhr",
+                        "Um 10 Uhr"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r18",
+        "passage":  "Ich gehe jeden Morgen um 8 Uhr zur UniversitÃ¤t. Der Unterricht dauert bis 14 Uhr. Danach gehe ich in die Bibliothek und lerne. Am Abend koche ich fÃ¼r meine Familie.",
+        "question":  "Was macht die Person am Abend?",
+        "options":  [
+                        "Sie lernt",
+                        "Sie kocht",
+                        "Sie liest",
+                        "Sie schlÃ¤ft"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r19",
+        "passage":  "Im Sommer fahre ich nach Italien. Ich bleibe zwei Wochen dort. Ich mÃ¶chte das Meer sehen und Pizza essen. Mein Hotel ist in Rom.",
+        "question":  "Wie lange bleibt die Person in Italien?",
+        "options":  [
+                        "Eine Woche",
+                        "Zwei Wochen",
+                        "Drei Wochen",
+                        "Einen Monat"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    },
+    {
+        "id":  "r20",
+        "passage":  "Im Sommer fahre ich nach Italien. Ich bleibe zwei Wochen dort. Ich mÃ¶chte das Meer sehen und Pizza essen. Mein Hotel ist in Rom.",
+        "question":  "Wo ist das Hotel?",
+        "options":  [
+                        "In Mailand",
+                        "In Rom",
+                        "In Venedig",
+                        "In Florenz"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Understanding descriptions and activities",
+        "practiceTip":  "Review descriptive words and action verbs, then match each question to the supporting sentence in the passage."
+    }
+]

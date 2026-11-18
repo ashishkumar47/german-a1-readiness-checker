@@ -1,0 +1,262 @@
+﻿[
+    {
+        "id":  "g1",
+        "question":  "Ich ___ aus Deutschland. (Choose the correct verb.)",
+        "options":  [
+                        "bist",
+                        "komme",
+                        "kommt",
+                        "kommen"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Present-tense verb conjugation",
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+    },
+    {
+        "id":  "g2",
+        "question":  "___ du Kaffee oder Tee?",
+        "options":  [
+                        "Trinke",
+                        "Trinkt",
+                        "Trinkst",
+                        "Trinken"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Present-tense verb conjugation",
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+    },
+    {
+        "id":  "g3",
+        "question":  "Das ist ___ Buch. (Neuter article)",
+        "options":  [
+                        "der",
+                        "die",
+                        "ein",
+                        "eine"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Present-tense verb conjugation",
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+    },
+    {
+        "id":  "g4",
+        "question":  "Wir ___ heute ins Kino.",
+        "options":  [
+                        "geht",
+                        "gehe",
+                        "gehen",
+                        "gehst"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Present-tense verb conjugation",
+        "practiceTip":  "Conjugate common present-tense verbs for ich, du, er/sie/es, wir, ihr, and sie."
+    },
+    {
+        "id":  "g5",
+        "question":  "Er ___ jeden Tag FuÃŸball.",
+        "options":  [
+                        "spiele",
+                        "spielen",
+                        "spielst",
+                        "spielt"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "German articles and cases",
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+    },
+    {
+        "id":  "g6",
+        "question":  "Das ist ___ Frau. (Feminine article)",
+        "options":  [
+                        "ein",
+                        "der",
+                        "eine",
+                        "das"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "German articles and cases",
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+    },
+    {
+        "id":  "g7",
+        "question":  "Ich ___ ein Buch. (lesen)",
+        "options":  [
+                        "lest",
+                        "lese",
+                        "liest",
+                        "lesen"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "German articles and cases",
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+    },
+    {
+        "id":  "g8",
+        "question":  "___ ihr morgen frei?",
+        "options":  [
+                        "Haben",
+                        "Habe",
+                        "Hat",
+                        "Habt"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "German articles and cases",
+        "practiceTip":  "Practise choosing der, die, das and ein/eine, paying attention to gender and case."
+    },
+    {
+        "id":  "g9",
+        "question":  "Sie (she) ___ sehr gut Deutsch.",
+        "options":  [
+                        "spreche",
+                        "sprichst",
+                        "spricht",
+                        "sprechen"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Verb forms and irregular verbs",
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+    },
+    {
+        "id":  "g10",
+        "question":  "Ich mÃ¶chte ___ Kaffee, bitte.",
+        "options":  [
+                        "ein",
+                        "eine",
+                        "einen",
+                        "einer"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Verb forms and irregular verbs",
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+    },
+    {
+        "id":  "g11",
+        "question":  "Du ___ sehr schnell. (laufen)",
+        "options":  [
+                        "laufe",
+                        "lÃ¤ufst",
+                        "lauft",
+                        "laufen"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Verb forms and irregular verbs",
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+    },
+    {
+        "id":  "g12",
+        "question":  "Das Kind ___ im Garten. (spielen)",
+        "options":  [
+                        "spiele",
+                        "spielst",
+                        "spielt",
+                        "spielen"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Verb forms and irregular verbs",
+        "practiceTip":  "Review common irregular A1 verbs and practise their forms in short sentences."
+    },
+    {
+        "id":  "g13",
+        "question":  "___ ist das? â€“ Das ist mein Freund.",
+        "options":  [
+                        "Was",
+                        "Wo",
+                        "Wer",
+                        "Wie"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Pronouns and sentence structure",
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+    },
+    {
+        "id":  "g14",
+        "question":  "Ich habe ___ Bruder und ___ Schwester.",
+        "options":  [
+                        "einen / eine",
+                        "ein / ein",
+                        "einer / eine",
+                        "einem / einer"
+                    ],
+        "correctAnswer":  0,
+        "topic":  "Pronouns and sentence structure",
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+    },
+    {
+        "id":  "g15",
+        "question":  "Anna ___ gern Musik. (hÃ¶ren)",
+        "options":  [
+                        "hÃ¶re",
+                        "hÃ¶rst",
+                        "hÃ¶rt",
+                        "hÃ¶ren"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Pronouns and sentence structure",
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+    },
+    {
+        "id":  "g16",
+        "question":  "Wir ___ am Wochenende nicht. (arbeiten)",
+        "options":  [
+                        "arbeitet",
+                        "arbeite",
+                        "arbeiten",
+                        "arbeitest"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Pronouns and sentence structure",
+        "practiceTip":  "Build simple sentences with personal pronouns and keep the conjugated verb in the right position."
+    },
+    {
+        "id":  "g17",
+        "question":  "Wo ___ du? â€“ Ich wohne in Berlin.",
+        "options":  [
+                        "wohne",
+                        "wohnst",
+                        "wohnt",
+                        "wohnen"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Prepositions and everyday grammar",
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+    },
+    {
+        "id":  "g18",
+        "question":  "Ich fahre ___ dem Bus zur Arbeit.",
+        "options":  [
+                        "mit",
+                        "in",
+                        "auf",
+                        "an"
+                    ],
+        "correctAnswer":  0,
+        "topic":  "Prepositions and everyday grammar",
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+    },
+    {
+        "id":  "g19",
+        "question":  "Der Hund ist ___ dem Tisch. (under)",
+        "options":  [
+                        "auf",
+                        "in",
+                        "unter",
+                        "neben"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Prepositions and everyday grammar",
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+    },
+    {
+        "id":  "g20",
+        "question":  "Sie (they) ___ aus der TÃ¼rkei.",
+        "options":  [
+                        "komme",
+                        "kommt",
+                        "kommst",
+                        "kommen"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "Prepositions and everyday grammar",
+        "practiceTip":  "Review the prepositions in these examples and practise them in short sentences with the correct case."
+    }
+]

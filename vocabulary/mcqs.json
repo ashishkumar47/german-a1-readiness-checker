@@ -1,0 +1,649 @@
+
+{
+  "language": "German",
+  "level": "A1",
+  "category": "Everyday Vocabulary",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Was bedeutet „Bleistift“?",
+      "translation": "What does Bleistift mean?",
+      "options": ["Pen", "Pencil", "Book", "Ruler"],
+      "correct_answer": "Pencil",
+      "explanation": "Der Bleistift means pencil."
+    },
+    {
+      "id": 2,
+      "question": "Wie heißt „Window“ auf Deutsch?",
+      "translation": "What is Window called in German?",
+      "options": ["Die Tür", "Das Fenster", "Die Wand", "Das Dach"],
+      "correct_answer": "Das Fenster",
+      "explanation": "Das Fenster means the window."
+    },
+    {
+      "id": 3,
+      "question": "Was bedeutet „Hund“?",
+      "translation": "What does Hund mean?",
+      "options": ["Cat", "Horse", "Dog", "Bird"],
+      "correct_answer": "Dog",
+      "explanation": "Der Hund means dog."
+    },
+    {
+      "id": 4,
+      "question": "Wie heißt „Water“ auf Deutsch?",
+      "translation": "What is Water called in German?",
+      "options": ["Das Wasser", "Die Milch", "Der Saft", "Der Kaffee"],
+      "correct_answer": "Das Wasser",
+      "explanation": "Das Wasser means water."
+    },
+    {
+      "id": 5,
+      "question": "Was bedeutet „Schwester“?",
+      "translation": "What does Schwester mean?",
+      "options": ["Mother", "Sister", "Aunt", "Grandmother"],
+      "correct_answer": "Sister",
+      "explanation": "Die Schwester means sister."
+    },
+    {
+      "id": 6,
+      "question": "Wie heißt „Chair“ auf Deutsch?",
+      "translation": "What is Chair called in German?",
+      "options": ["Der Tisch", "Das Bett", "Der Stuhl", "Der Schrank"],
+      "correct_answer": "Der Stuhl",
+      "explanation": "Der Stuhl means chair."
+    },
+    {
+      "id": 7,
+      "question": "Was bedeutet „Bäckerei“?",
+      "translation": "What does Bäckerei mean?",
+      "options": ["Bakery", "Pharmacy", "School", "Hospital"],
+      "correct_answer": "Bakery",
+      "explanation": "Die Bäckerei is a place where you buy bread."
+    },
+    {
+      "id": 8,
+      "question": "Wie heißt „Sunday“ auf Deutsch?",
+      "translation": "What is Sunday called in German?",
+      "options": ["Montag", "Samstag", "Sonntag", "Freitag"],
+      "correct_answer": "Sonntag",
+      "explanation": "Sonntag means Sunday."
+    },
+    {
+      "id": 9,
+      "question": "Was bedeutet „Kalt“?",
+      "translation": "What does Kalt mean?",
+      "options": ["Hot", "Cold", "Warm", "Dry"],
+      "correct_answer": "Cold",
+      "explanation": "Kalt describes something that has a low temperature."
+    },
+    {
+      "id": 10,
+      "question": "Wie heißt „Shoes“ auf Deutsch?",
+      "translation": "What are Shoes called in German?",
+      "options": ["Die Schuhe", "Die Socken", "Die Handschuhe", "Die Hemden"],
+      "correct_answer": "Die Schuhe",
+      "explanation": "Die Schuhe means shoes."
+    },
+    {
+      "id": 11,
+      "question": "Was bedeutet „Schlüssel“?",
+      "translation": "What does Schlüssel mean?",
+      "options": ["Wallet", "Key", "Phone", "Bag"],
+      "correct_answer": "Key",
+      "explanation": "Der Schlüssel means key."
+    },
+    {
+      "id": 12,
+      "question": "Wie heißt „Bread“ auf Deutsch?",
+      "translation": "What is Bread called in German?",
+      "options": ["Der Käse", "Das Fleisch", "Das Brot", "Die Butter"],
+      "correct_answer": "Das Brot",
+      "explanation": "Das Brot means bread."
+    },
+    {
+      "id": 13,
+      "question": "Was bedeutet „Lehrer“?",
+      "translation": "What does Lehrer mean?",
+      "options": ["Doctor", "Teacher (male)", "Student", "Driver"],
+      "correct_answer": "Teacher (male)",
+      "explanation": "Der Lehrer means a male teacher."
+    },
+    {
+      "id": 14,
+      "question": "Wie heißt „Red“ auf Deutsch?",
+      "translation": "What is Red called in German?",
+      "options": ["Blau", "Grün", "Rot", "Gelb"],
+      "correct_answer": "Rot",
+      "explanation": "Rot means red."
+    },
+    {
+      "id": 15,
+      "question": "Was bedeutet „Bahnhof“?",
+      "translation": "What does Bahnhof mean?",
+      "options": ["Airport", "Train station", "Bus stop", "Restaurant"],
+      "correct_answer": "Train station",
+      "explanation": "Der Bahnhof means train station."
+    },
+    {
+      "id": 16,
+      "question": "Wie heißt „Mother“ auf Deutsch?",
+      "translation": "What is Mother called in German?",
+      "options": ["Der Vater", "Die Mutter", "Die Tochter", "Der Sohn"],
+      "correct_answer": "Die Mutter",
+      "explanation": "Die Mutter means mother."
+    },
+    {
+      "id": 17,
+      "question": "Was bedeutet „Schlafen“?",
+      "translation": "What does Schlafen mean?",
+      "options": ["To eat", "To sleep", "To drink", "To walk"],
+      "correct_answer": "To sleep",
+      "explanation": "Schlafen is the German verb meaning to sleep."
+    },
+    {
+      "id": 18,
+      "question": "Wie heißt „Fish“ auf Deutsch?",
+      "translation": "What is Fish called in German?",
+      "options": ["Der Fisch", "Das Huhn", "Die Kuh", "Das Pferd"],
+      "correct_answer": "Der Fisch",
+      "explanation": "Der Fisch means fish."
+    },
+    {
+      "id": 19,
+      "question": "Was bedeutet „Klein“?",
+      "translation": "What does Klein mean?",
+      "options": ["Big", "Tall", "Small", "Long"],
+      "correct_answer": "Small",
+      "explanation": "Klein describes something small."
+    },
+    {
+      "id": 20,
+      "question": "Wie heißt „Telephone“ auf Deutsch?",
+      "translation": "What is Telephone called in German?",
+      "options": ["Der Computer", "Das Telefon", "Der Fernseher", "Das Radio"],
+      "correct_answer": "Das Telefon",
+      "explanation": "Das Telefon means telephone."
+    },
+    {
+      "id": 21,
+      "question": "Was bedeutet „Apfel“?",
+      "translation": "What does Apfel mean?",
+      "options": ["Orange", "Apple", "Grape", "Pear"],
+      "correct_answer": "Apple",
+      "explanation": "Der Apfel means apple."
+    },
+    {
+      "id": 22,
+      "question": "Wie heißt „Bedroom“ auf Deutsch?",
+      "translation": "What is Bedroom called in German?",
+      "options": ["Das Badezimmer", "Das Wohnzimmer", "Das Schlafzimmer", "Die Küche"],
+      "correct_answer": "Das Schlafzimmer",
+      "explanation": "Das Schlafzimmer means bedroom."
+    },
+    {
+      "id": 23,
+      "question": "Was bedeutet „Teuer“?",
+      "translation": "What does Teuer mean?",
+      "options": ["Cheap", "Expensive", "Free", "Dirty"],
+      "correct_answer": "Expensive",
+      "explanation": "Teuer means expensive."
+    },
+    {
+      "id": 24,
+      "question": "Wie heißt „Tuesday“ auf Deutsch?",
+      "translation": "What is Tuesday called in German?",
+      "options": ["Montag", "Dienstag", "Mittwoch", "Donnerstag"],
+      "correct_answer": "Dienstag",
+      "explanation": "Dienstag means Tuesday."
+    },
+    {
+      "id": 25,
+      "question": "Was bedeutet „Flasche“?",
+      "translation": "What does Flasche mean?",
+      "options": ["Plate", "Bottle", "Glass", "Cup"],
+      "correct_answer": "Bottle",
+      "explanation": "Die Flasche means bottle."
+    },
+    {
+      "id": 26,
+      "question": "Wie heißt „Green“ auf Deutsch?",
+      "translation": "What is Green called in German?",
+      "options": ["Rot", "Schwarz", "Grün", "Weiß"],
+      "correct_answer": "Grün",
+      "explanation": "Grün means green."
+    },
+    {
+      "id": 27,
+      "question": "Was bedeutet „Essen“?",
+      "translation": "What does Essen mean?",
+      "options": ["Drink", "Food", "Clothes", "Furniture"],
+      "correct_answer": "Food",
+      "explanation": "Das Essen means food or a meal."
+    },
+    {
+      "id": 28,
+      "question": "Wie heißt „Doctor“ auf Deutsch?",
+      "translation": "What is Doctor called in German?",
+      "options": ["Der Arzt", "Der Lehrer", "Der Koch", "Der Verkäufer"],
+      "correct_answer": "Der Arzt",
+      "explanation": "Der Arzt means doctor."
+    },
+    {
+      "id": 29,
+      "question": "Was bedeutet „Schnell“?",
+      "translation": "What does Schnell mean?",
+      "options": ["Slow", "Fast", "Quiet", "Heavy"],
+      "correct_answer": "Fast",
+      "explanation": "Schnell means fast or quickly."
+    },
+    {
+      "id": 30,
+      "question": "Wie heißt „Grandfather“ auf Deutsch?",
+      "translation": "What is Grandfather called in German?",
+      "options": ["Der Vater", "Der Großvater", "Der Onkel", "Der Bruder"],
+      "correct_answer": "Der Großvater",
+      "explanation": "Der Großvater means grandfather."
+    },
+    {
+      "id": 31,
+      "question": "Was bedeutet „Sonne“?",
+      "translation": "What does Sonne mean?",
+      "options": ["Moon", "Star", "Sun", "Cloud"],
+      "correct_answer": "Sun",
+      "explanation": "Die Sonne means sun."
+    },
+    {
+      "id": 32,
+      "question": "Wie heißt „Street“ auf Deutsch?",
+      "translation": "What is Street called in German?",
+      "options": ["Die Straße", "Der Garten", "Das Haus", "Der Platz"],
+      "correct_answer": "Die Straße",
+      "explanation": "Die Straße means street or road."
+    },
+    {
+      "id": 33,
+      "question": "Was bedeutet „Durstig“?",
+      "translation": "What does Durstig mean?",
+      "options": ["Hungry", "Thirsty", "Tired", "Happy"],
+      "correct_answer": "Thirsty",
+      "explanation": "Durstig describes someone who wants to drink."
+    },
+    {
+      "id": 34,
+      "question": "Wie heißt „Monday“ auf Deutsch?",
+      "translation": "What is Monday called in German?",
+      "options": ["Sonntag", "Freitag", "Montag", "Samstag"],
+      "correct_answer": "Montag",
+      "explanation": "Montag means Monday."
+    },
+    {
+      "id": 35,
+      "question": "Was bedeutet „Kleid“?",
+      "translation": "What does Kleid mean?",
+      "options": ["Shirt", "Dress", "Trousers", "Jacket"],
+      "correct_answer": "Dress",
+      "explanation": "Das Kleid means dress."
+    },
+    {
+      "id": 36,
+      "question": "Wie heißt „Rain“ auf Deutsch?",
+      "translation": "What is Rain called in German?",
+      "options": ["Der Schnee", "Der Wind", "Der Regen", "Die Sonne"],
+      "correct_answer": "Der Regen",
+      "explanation": "Der Regen means rain."
+    },
+    {
+      "id": 37,
+      "question": "Was bedeutet „Arbeiten“?",
+      "translation": "What does Arbeiten mean?",
+      "options": ["To play", "To work", "To read", "To write"],
+      "correct_answer": "To work",
+      "explanation": "Arbeiten means to work."
+    },
+    {
+      "id": 38,
+      "question": "Wie heißt „Supermarket“ auf Deutsch?",
+      "translation": "What is Supermarket called in German?",
+      "options": ["Der Supermarkt", "Die Schule", "Das Krankenhaus", "Das Kino"],
+      "correct_answer": "Der Supermarkt",
+      "explanation": "Der Supermarkt means supermarket."
+    },
+    {
+      "id": 39,
+      "question": "Was bedeutet „Morgen“?",
+      "translation": "What does Morgen mean?",
+      "options": ["Evening", "Morning", "Night", "Afternoon"],
+      "correct_answer": "Morning",
+      "explanation": "Der Morgen means morning."
+    },
+    {
+      "id": 40,
+      "question": "Wie heißt „Egg“ auf Deutsch?",
+      "translation": "What is Egg called in German?",
+      "options": ["Das Brot", "Das Ei", "Der Käse", "Die Milch"],
+      "correct_answer": "Das Ei",
+      "explanation": "Das Ei means egg."
+    },
+    {
+      "id": 41,
+      "question": "Was bedeutet „Jacke“?",
+      "translation": "What does Jacke mean?",
+      "options": ["Jacket", "Shoes", "Hat", "Scarf"],
+      "correct_answer": "Jacket",
+      "explanation": "Die Jacke means jacket."
+    },
+    {
+      "id": 42,
+      "question": "Wie heißt „Yellow“ auf Deutsch?",
+      "translation": "What is Yellow called in German?",
+      "options": ["Blau", "Gelb", "Rot", "Grau"],
+      "correct_answer": "Gelb",
+      "explanation": "Gelb means yellow."
+    },
+    {
+      "id": 43,
+      "question": "Was bedeutet „Lesen“?",
+      "translation": "What does Lesen mean?",
+      "options": ["To write", "To listen", "To read", "To speak"],
+      "correct_answer": "To read",
+      "explanation": "Lesen is the German verb meaning to read."
+    },
+    {
+      "id": 44,
+      "question": "Wie heißt „Hospital“ auf Deutsch?",
+      "translation": "What is Hospital called in German?",
+      "options": ["Die Apotheke", "Das Krankenhaus", "Der Bahnhof", "Die Bäckerei"],
+      "correct_answer": "Das Krankenhaus",
+      "explanation": "Das Krankenhaus means hospital."
+    },
+    {
+      "id": 45,
+      "question": "Was bedeutet „Schön“?",
+      "translation": "What does Schön mean?",
+      "options": ["Ugly", "Beautiful", "Dirty", "Old"],
+      "correct_answer": "Beautiful",
+      "explanation": "Schön means beautiful or nice."
+    },
+    {
+      "id": 46,
+      "question": "Wie heißt „Banana“ auf Deutsch?",
+      "translation": "What is Banana called in German?",
+      "options": ["Der Apfel", "Die Banane", "Die Birne", "Die Orange"],
+      "correct_answer": "Die Banane",
+      "explanation": "Die Banane means banana."
+    },
+    {
+      "id": 47,
+      "question": "Was bedeutet „Badezimmer“?",
+      "translation": "What does Badezimmer mean?",
+      "options": ["Bedroom", "Kitchen", "Bathroom", "Garden"],
+      "correct_answer": "Bathroom",
+      "explanation": "Das Badezimmer means bathroom."
+    },
+    {
+      "id": 48,
+      "question": "Wie heißt „Thursday“ auf Deutsch?",
+      "translation": "What is Thursday called in German?",
+      "options": ["Dienstag", "Mittwoch", "Donnerstag", "Freitag"],
+      "correct_answer": "Donnerstag",
+      "explanation": "Donnerstag means Thursday."
+    },
+    {
+      "id": 49,
+      "question": "Was bedeutet „Müde“?",
+      "translation": "What does Müde mean?",
+      "options": ["Angry", "Tired", "Hungry", "Cold"],
+      "correct_answer": "Tired",
+      "explanation": "Müde means tired."
+    },
+    {
+      "id": 50,
+      "question": "Wie heißt „Bus“ auf Deutsch?",
+      "translation": "What is Bus called in German?",
+      "options": ["Der Bus", "Das Fahrrad", "Das Flugzeug", "Das Schiff"],
+      "correct_answer": "Der Bus",
+      "explanation": "Der Bus means bus."
+    },
+    {
+      "id": 51,
+      "question": "Was bedeutet „Käse“?",
+      "translation": "What does Käse mean?",
+      "options": ["Butter", "Cheese", "Bread", "Meat"],
+      "correct_answer": "Cheese",
+      "explanation": "Der Käse means cheese."
+    },
+    {
+      "id": 52,
+      "question": "Wie heißt „Blue“ auf Deutsch?",
+      "translation": "What is Blue called in German?",
+      "options": ["Grün", "Rot", "Blau", "Weiß"],
+      "correct_answer": "Blau",
+      "explanation": "Blau means blue."
+    },
+    {
+      "id": 53,
+      "question": "Was bedeutet „Kaufen“?",
+      "translation": "What does Kaufen mean?",
+      "options": ["To sell", "To buy", "To cook", "To clean"],
+      "correct_answer": "To buy",
+      "explanation": "Kaufen means to buy or purchase."
+    },
+    {
+      "id": 54,
+      "question": "Wie heißt „Family“ auf Deutsch?",
+      "translation": "What is Family called in German?",
+      "options": ["Die Familie", "Die Freunde", "Die Kinder", "Die Eltern"],
+      "correct_answer": "Die Familie",
+      "explanation": "Die Familie means family."
+    },
+    {
+      "id": 55,
+      "question": "Was bedeutet „Hemd“?",
+      "translation": "What does Hemd mean?",
+      "options": ["Trousers", "Shirt", "Shoes", "Hat"],
+      "correct_answer": "Shirt",
+      "explanation": "Das Hemd means shirt."
+    },
+    {
+      "id": 56,
+      "question": "Wie heißt „Evening“ auf Deutsch?",
+      "translation": "What is Evening called in German?",
+      "options": ["Der Morgen", "Der Abend", "Die Nacht", "Der Mittag"],
+      "correct_answer": "Der Abend",
+      "explanation": "Der Abend means evening."
+    },
+    {
+      "id": 57,
+      "question": "Was bedeutet „Laufen“?",
+      "translation": "What does Laufen mean?",
+      "options": ["To run or walk", "To sleep", "To eat", "To sing"],
+      "correct_answer": "To run or walk",
+      "explanation": "Laufen commonly means to run or walk."
+    },
+    {
+      "id": 58,
+      "question": "Wie heißt „Orange“ auf Deutsch?",
+      "translation": "What is Orange called in German?",
+      "options": ["Die Zitrone", "Die Orange", "Die Erdbeere", "Die Traube"],
+      "correct_answer": "Die Orange",
+      "explanation": "Die Orange means orange."
+    },
+    {
+      "id": 59,
+      "question": "Was bedeutet „Alt“?",
+      "translation": "What does Alt mean?",
+      "options": ["Young", "New", "Old", "Small"],
+      "correct_answer": "Old",
+      "explanation": "Alt means old."
+    },
+    {
+      "id": 60,
+      "question": "Wie heißt „Kitchen“ auf Deutsch?",
+      "translation": "What is Kitchen called in German?",
+      "options": ["Das Schlafzimmer", "Das Wohnzimmer", "Die Küche", "Das Badezimmer"],
+      "correct_answer": "Die Küche",
+      "explanation": "Die Küche means kitchen."
+    },
+    {
+      "id": 61,
+      "question": "Was bedeutet „Schreiben“?",
+      "translation": "What does Schreiben mean?",
+      "options": ["To read", "To write", "To speak", "To listen"],
+      "correct_answer": "To write",
+      "explanation": "Schreiben means to write."
+    },
+    {
+      "id": 62,
+      "question": "Wie heißt „Cloud“ auf Deutsch?",
+      "translation": "What is Cloud called in German?",
+      "options": ["Die Sonne", "Der Regen", "Die Wolke", "Der Schnee"],
+      "correct_answer": "Die Wolke",
+      "explanation": "Die Wolke means cloud."
+    },
+    {
+      "id": 63,
+      "question": "Was bedeutet „Billig“?",
+      "translation": "What does Billig mean?",
+      "options": ["Expensive", "Cheap", "Beautiful", "Heavy"],
+      "correct_answer": "Cheap",
+      "explanation": "Billig means cheap or inexpensive."
+    },
+    {
+      "id": 64,
+      "question": "Wie heißt „Daughter“ auf Deutsch?",
+      "translation": "What is Daughter called in German?",
+      "options": ["Der Sohn", "Die Tochter", "Die Mutter", "Die Schwester"],
+      "correct_answer": "Die Tochter",
+      "explanation": "Die Tochter means daughter."
+    },
+    {
+      "id": 65,
+      "question": "Was bedeutet „Trinken“?",
+      "translation": "What does Trinken mean?",
+      "options": ["To eat", "To drink", "To sleep", "To cook"],
+      "correct_answer": "To drink",
+      "explanation": "Trinken is the German verb meaning to drink."
+    },
+    {
+      "id": 66,
+      "question": "Wie heißt „Garden“ auf Deutsch?",
+      "translation": "What is Garden called in German?",
+      "options": ["Der Garten", "Der Balkon", "Die Straße", "Das Zimmer"],
+      "correct_answer": "Der Garten",
+      "explanation": "Der Garten means garden."
+    },
+    {
+      "id": 67,
+      "question": "Was bedeutet „Weiß“?",
+      "translation": "What does Weiß mean?",
+      "options": ["Black", "White", "Grey", "Brown"],
+      "correct_answer": "White",
+      "explanation": "Weiß means white."
+    },
+    {
+      "id": 68,
+      "question": "Wie heißt „Strawberry“ auf Deutsch?",
+      "translation": "What is Strawberry called in German?",
+      "options": ["Die Kirsche", "Die Erdbeere", "Die Banane", "Die Birne"],
+      "correct_answer": "Die Erdbeere",
+      "explanation": "Die Erdbeere means strawberry."
+    },
+    {
+      "id": 69,
+      "question": "Was bedeutet „Frühstück“?",
+      "translation": "What does Frühstück mean?",
+      "options": ["Lunch", "Dinner", "Breakfast", "Dessert"],
+      "correct_answer": "Breakfast",
+      "explanation": "Das Frühstück means breakfast."
+    },
+    {
+      "id": 70,
+      "question": "Wie heißt „Airplane“ auf Deutsch?",
+      "translation": "What is Airplane called in German?",
+      "options": ["Das Schiff", "Der Zug", "Das Flugzeug", "Das Fahrrad"],
+      "correct_answer": "Das Flugzeug",
+      "explanation": "Das Flugzeug means airplane."
+    },
+    {
+      "id": 71,
+      "question": "Was bedeutet „Freundin“?",
+      "translation": "What does Freundin mean?",
+      "options": ["Female friend", "Mother", "Teacher", "Daughter"],
+      "correct_answer": "Female friend",
+      "explanation": "Die Freundin means a female friend or girlfriend."
+    },
+    {
+      "id": 72,
+      "question": "Wie heißt „Winter“ auf Deutsch?",
+      "translation": "What is Winter called in German?",
+      "options": ["Der Sommer", "Der Frühling", "Der Winter", "Der Herbst"],
+      "correct_answer": "Der Winter",
+      "explanation": "Der Winter means winter."
+    },
+    {
+      "id": 73,
+      "question": "Was bedeutet „Sitzen“?",
+      "translation": "What does Sitzen mean?",
+      "options": ["To stand", "To sit", "To run", "To jump"],
+      "correct_answer": "To sit",
+      "explanation": "Sitzen means to sit."
+    },
+    {
+      "id": 74,
+      "question": "Wie heißt „Coffee“ auf Deutsch?",
+      "translation": "What is Coffee called in German?",
+      "options": ["Der Tee", "Der Kaffee", "Der Saft", "Die Milch"],
+      "correct_answer": "Der Kaffee",
+      "explanation": "Der Kaffee means coffee."
+    },
+    {
+      "id": 75,
+      "question": "Was bedeutet „Hose“?",
+      "translation": "What does Hose mean?",
+      "options": ["Shirt", "Trousers", "Jacket", "Dress"],
+      "correct_answer": "Trousers",
+      "explanation": "Die Hose means trousers or pants."
+    },
+    {
+      "id": 76,
+      "question": "Wie heißt „Saturday“ auf Deutsch?",
+      "translation": "What is Saturday called in German?",
+      "options": ["Freitag", "Samstag", "Sonntag", "Mittwoch"],
+      "correct_answer": "Samstag",
+      "explanation": "Samstag means Saturday."
+    },
+    {
+      "id": 77,
+      "question": "Was bedeutet „Sprechen“?",
+      "translation": "What does Sprechen mean?",
+      "options": ["To listen", "To speak", "To read", "To write"],
+      "correct_answer": "To speak",
+      "explanation": "Sprechen means to speak or talk."
+    },
+    {
+      "id": 78,
+      "question": "Wie heißt „Market“ auf Deutsch?",
+      "translation": "What is Market called in German?",
+      "options": ["Der Markt", "Das Büro", "Die Schule", "Das Hotel"],
+      "correct_answer": "Der Markt",
+      "explanation": "Der Markt means market."
+    },
+    {
+      "id": 79,
+      "question": "Was bedeutet „Laut“?",
+      "translation": "What does Laut mean?",
+      "options": ["Quiet", "Loud", "Slow", "Soft"],
+      "correct_answer": "Loud",
+      "explanation": "Laut means loud or noisy."
+    },
+    {
+      "id": 80,
+      "question": "Wie heißt „Milk“ auf Deutsch?",
+      "translation": "What is Milk called in German?",
+      "options": ["Der Käse", "Die Milch", "Das Wasser", "Der Saft"],
+      "correct_answer": "Die Milch",
+      "explanation": "Die Milch means milk."
+    }
+  ]
+}

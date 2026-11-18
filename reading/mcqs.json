@@ -1,0 +1,512 @@
+
+{
+  "language": "German",
+  "level": "A1",
+  "category": "Reading Comprehension",
+  "total_passages": 10,
+  "total_questions": 50,
+  "passages": [
+    {
+      "passage_id": "P001",
+      "title": "Meine Familie",
+      "text": "Hallo! Ich heiße Anna. Ich bin 22 Jahre alt. Ich wohne in Berlin. Meine Familie ist klein. Ich habe einen Bruder und eine Schwester. Mein Vater ist Lehrer und meine Mutter ist Ärztin. Wir haben einen Hund. Er heißt Max."
+    },
+    {
+      "passage_id": "P002",
+      "title": "Mein Tagesablauf",
+      "text": "Ich heiße Paul. Ich stehe jeden Morgen um sieben Uhr auf. Dann frühstücke ich und trinke Kaffee. Um acht Uhr gehe ich zur Arbeit. Ich arbeite in einem Büro. Am Abend koche ich und sehe fern. Um zehn Uhr gehe ich ins Bett."
+    },
+    {
+      "passage_id": "P003",
+      "title": "Im Supermarkt",
+      "text": "Heute geht Lisa in den Supermarkt. Sie kauft Milch, Brot, Eier und Äpfel. Sie braucht auch eine Flasche Wasser. Der Supermarkt ist nicht weit von ihrem Haus. Lisa bezahlt 15 Euro. Danach geht sie nach Hause."
+    },
+    {
+      "passage_id": "P004",
+      "title": "Mein Wochenende",
+      "text": "Ich heiße Tom. Am Samstag spiele ich Fußball mit meinen Freunden. Am Sonntag besuche ich meine Großeltern. Wir essen zusammen Kuchen und trinken Tee. Meine Großmutter erzählt Geschichten. Am Abend lese ich ein Buch."
+    },
+    {
+      "passage_id": "P005",
+      "title": "Im Restaurant",
+      "text": "Maria geht mit ihrer Freundin ins Restaurant. Sie bestellen eine Pizza und zwei Salate. Maria trinkt Wasser. Ihre Freundin trinkt Apfelsaft. Das Essen ist sehr lecker. Sie bezahlen zusammen 25 Euro."
+    },
+    {
+      "passage_id": "P006",
+      "title": "Mein Zuhause",
+      "text": "Ich wohne in einer kleinen Wohnung. Meine Wohnung hat zwei Zimmer, eine Küche und ein Badezimmer. Mein Schlafzimmer ist blau. Im Wohnzimmer stehen ein Sofa und ein Tisch. Ich habe auch einen kleinen Balkon mit Blumen."
+    },
+    {
+      "passage_id": "P007",
+      "title": "Ein Besuch bei Freunden",
+      "text": "Am Freitag besucht Peter seinen Freund Markus. Markus wohnt in Hamburg. Sie hören Musik und spielen Computerspiele. Um sechs Uhr essen sie zusammen Pizza. Peter fährt um neun Uhr mit dem Bus nach Hause."
+    },
+    {
+      "passage_id": "P008",
+      "title": "Das Wetter heute",
+      "text": "Heute ist Montag. Das Wetter ist schön und die Sonne scheint. Es ist warm. Julia geht mit ihrem Hund in den Park. Sie trägt ein T-Shirt und eine Jeans. Im Park spielen viele Kinder. Julia ist sehr glücklich."
+    },
+    {
+      "passage_id": "P009",
+      "title": "Meine Schule",
+      "text": "Ich heiße Daniel und bin 16 Jahre alt. Ich gehe von Montag bis Freitag zur Schule. Mein Lieblingsfach ist Englisch. Ich lerne auch Deutsch und Mathematik. Mein Lehrer heißt Herr Müller. Die Schule beginnt um acht Uhr."
+    },
+    {
+      "passage_id": "P010",
+      "title": "Ein Ausflug nach München",
+      "text": "Am Samstag fährt Familie Weber nach München. Sie fahren mit dem Zug. Die Fahrt dauert zwei Stunden. In München besuchen sie ein Museum und essen in einem Restaurant. Am Abend fahren sie zurück nach Hause."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "passage_id": "P001",
+      "question": "Wie alt ist Anna?",
+      "translation": "How old is Anna?",
+      "options": ["20 Jahre", "22 Jahre", "25 Jahre", "30 Jahre"],
+      "correct_answer": "22 Jahre",
+      "explanation": "Im Text steht: Ich bin 22 Jahre alt."
+    },
+    {
+      "id": 2,
+      "passage_id": "P001",
+      "question": "Wo wohnt Anna?",
+      "translation": "Where does Anna live?",
+      "options": ["In Hamburg", "In München", "In Berlin", "In Frankfurt"],
+      "correct_answer": "In Berlin",
+      "explanation": "Anna sagt: Ich wohne in Berlin."
+    },
+    {
+      "id": 3,
+      "passage_id": "P001",
+      "question": "Wie viele Geschwister hat Anna?",
+      "translation": "How many siblings does Anna have?",
+      "options": ["Einen Bruder", "Eine Schwester", "Zwei Geschwister", "Drei Geschwister"],
+      "correct_answer": "Zwei Geschwister",
+      "explanation": "Anna hat einen Bruder und eine Schwester."
+    },
+    {
+      "id": 4,
+      "passage_id": "P001",
+      "question": "Was ist Annas Vater von Beruf?",
+      "translation": "What is Anna's father's profession?",
+      "options": ["Arzt", "Lehrer", "Koch", "Polizist"],
+      "correct_answer": "Lehrer",
+      "explanation": "Im Text steht: Mein Vater ist Lehrer."
+    },
+    {
+      "id": 5,
+      "passage_id": "P001",
+      "question": "Wie heißt der Hund?",
+      "translation": "What is the dog's name?",
+      "options": ["Bello", "Max", "Tom", "Milo"],
+      "correct_answer": "Max",
+      "explanation": "Der Hund heißt Max."
+    },
+    {
+      "id": 6,
+      "passage_id": "P002",
+      "question": "Wann steht Paul auf?",
+      "translation": "When does Paul get up?",
+      "options": ["Um sechs Uhr", "Um sieben Uhr", "Um acht Uhr", "Um neun Uhr"],
+      "correct_answer": "Um sieben Uhr",
+      "explanation": "Paul steht jeden Morgen um sieben Uhr auf."
+    },
+    {
+      "id": 7,
+      "passage_id": "P002",
+      "question": "Was trinkt Paul zum Frühstück?",
+      "translation": "What does Paul drink for breakfast?",
+      "options": ["Tee", "Milch", "Kaffee", "Wasser"],
+      "correct_answer": "Kaffee",
+      "explanation": "Im Text steht: Dann frühstücke ich und trinke Kaffee."
+    },
+    {
+      "id": 8,
+      "passage_id": "P002",
+      "question": "Wo arbeitet Paul?",
+      "translation": "Where does Paul work?",
+      "options": ["In einer Schule", "In einem Büro", "In einem Restaurant", "In einem Krankenhaus"],
+      "correct_answer": "In einem Büro",
+      "explanation": "Paul sagt: Ich arbeite in einem Büro."
+    },
+    {
+      "id": 9,
+      "passage_id": "P002",
+      "question": "Was macht Paul am Abend?",
+      "translation": "What does Paul do in the evening?",
+      "options": ["Er spielt Fußball.", "Er geht einkaufen.", "Er kocht und sieht fern.", "Er besucht Freunde."],
+      "correct_answer": "Er kocht und sieht fern.",
+      "explanation": "Am Abend kocht Paul und sieht fern."
+    },
+    {
+      "id": 10,
+      "passage_id": "P002",
+      "question": "Wann geht Paul ins Bett?",
+      "translation": "When does Paul go to bed?",
+      "options": ["Um neun Uhr", "Um zehn Uhr", "Um elf Uhr", "Um zwölf Uhr"],
+      "correct_answer": "Um zehn Uhr",
+      "explanation": "Im Text steht: Um zehn Uhr gehe ich ins Bett."
+    },
+    {
+      "id": 11,
+      "passage_id": "P003",
+      "question": "Wohin geht Lisa heute?",
+      "translation": "Where does Lisa go today?",
+      "options": ["Zur Schule", "Zum Park", "Zum Supermarkt", "Zum Bahnhof"],
+      "correct_answer": "Zum Supermarkt",
+      "explanation": "Der Text beginnt mit: Heute geht Lisa in den Supermarkt."
+    },
+    {
+      "id": 12,
+      "passage_id": "P003",
+      "question": "Was kauft Lisa?",
+      "translation": "What does Lisa buy?",
+      "options": ["Milch, Brot, Eier und Äpfel", "Käse, Reis und Fleisch", "Kuchen und Tee", "Bananen und Orangen"],
+      "correct_answer": "Milch, Brot, Eier und Äpfel",
+      "explanation": "Lisa kauft Milch, Brot, Eier und Äpfel."
+    },
+    {
+      "id": 13,
+      "passage_id": "P003",
+      "question": "Was braucht Lisa auch?",
+      "translation": "What else does Lisa need?",
+      "options": ["Eine Tasse Tee", "Eine Flasche Wasser", "Ein Buch", "Eine Tasche"],
+      "correct_answer": "Eine Flasche Wasser",
+      "explanation": "Im Text steht: Sie braucht auch eine Flasche Wasser."
+    },
+    {
+      "id": 14,
+      "passage_id": "P003",
+      "question": "Wie viel bezahlt Lisa?",
+      "translation": "How much does Lisa pay?",
+      "options": ["10 Euro", "12 Euro", "15 Euro", "20 Euro"],
+      "correct_answer": "15 Euro",
+      "explanation": "Lisa bezahlt 15 Euro."
+    },
+    {
+      "id": 15,
+      "passage_id": "P003",
+      "question": "Was macht Lisa nach dem Einkauf?",
+      "translation": "What does Lisa do after shopping?",
+      "options": ["Sie geht zur Arbeit.", "Sie geht nach Hause.", "Sie besucht eine Freundin.", "Sie geht ins Kino."],
+      "correct_answer": "Sie geht nach Hause.",
+      "explanation": "Nach dem Einkauf geht Lisa nach Hause."
+    },
+    {
+      "id": 16,
+      "passage_id": "P004",
+      "question": "Was macht Tom am Samstag?",
+      "translation": "What does Tom do on Saturday?",
+      "options": ["Er liest ein Buch.", "Er spielt Fußball.", "Er besucht seine Großeltern.", "Er geht schwimmen."],
+      "correct_answer": "Er spielt Fußball.",
+      "explanation": "Am Samstag spielt Tom Fußball mit seinen Freunden."
+    },
+    {
+      "id": 17,
+      "passage_id": "P004",
+      "question": "Wen besucht Tom am Sonntag?",
+      "translation": "Whom does Tom visit on Sunday?",
+      "options": ["Seine Freunde", "Seine Eltern", "Seine Großeltern", "Seinen Lehrer"],
+      "correct_answer": "Seine Großeltern",
+      "explanation": "Am Sonntag besucht Tom seine Großeltern."
+    },
+    {
+      "id": 18,
+      "passage_id": "P004",
+      "question": "Was essen Tom und seine Großeltern?",
+      "translation": "What do Tom and his grandparents eat?",
+      "options": ["Pizza", "Kuchen", "Brot", "Äpfel"],
+      "correct_answer": "Kuchen",
+      "explanation": "Sie essen zusammen Kuchen."
+    },
+    {
+      "id": 19,
+      "passage_id": "P004",
+      "question": "Was trinken sie?",
+      "translation": "What do they drink?",
+      "options": ["Kaffee", "Wasser", "Tee", "Saft"],
+      "correct_answer": "Tee",
+      "explanation": "Im Text steht: Wir essen zusammen Kuchen und trinken Tee."
+    },
+    {
+      "id": 20,
+      "passage_id": "P004",
+      "question": "Was macht Tom am Sonntagabend?",
+      "translation": "What does Tom do on Sunday evening?",
+      "options": ["Er sieht fern.", "Er liest ein Buch.", "Er spielt Fußball.", "Er kocht."],
+      "correct_answer": "Er liest ein Buch.",
+      "explanation": "Am Abend liest Tom ein Buch."
+    },
+    {
+      "id": 21,
+      "passage_id": "P005",
+      "question": "Mit wem geht Maria ins Restaurant?",
+      "translation": "With whom does Maria go to the restaurant?",
+      "options": ["Mit ihrer Mutter", "Mit ihrem Bruder", "Mit ihrer Freundin", "Mit ihrem Vater"],
+      "correct_answer": "Mit ihrer Freundin",
+      "explanation": "Maria geht mit ihrer Freundin ins Restaurant."
+    },
+    {
+      "id": 22,
+      "passage_id": "P005",
+      "question": "Was bestellen Maria und ihre Freundin?",
+      "translation": "What do Maria and her friend order?",
+      "options": ["Zwei Pizzen", "Eine Pizza und zwei Salate", "Zwei Suppen", "Ein Sandwich"],
+      "correct_answer": "Eine Pizza und zwei Salate",
+      "explanation": "Sie bestellen eine Pizza und zwei Salate."
+    },
+    {
+      "id": 23,
+      "passage_id": "P005",
+      "question": "Was trinkt Maria?",
+      "translation": "What does Maria drink?",
+      "options": ["Apfelsaft", "Kaffee", "Wasser", "Tee"],
+      "correct_answer": "Wasser",
+      "explanation": "Maria trinkt Wasser."
+    },
+    {
+      "id": 24,
+      "passage_id": "P005",
+      "question": "Was trinkt ihre Freundin?",
+      "translation": "What does her friend drink?",
+      "options": ["Milch", "Apfelsaft", "Wasser", "Kaffee"],
+      "correct_answer": "Apfelsaft",
+      "explanation": "Ihre Freundin trinkt Apfelsaft."
+    },
+    {
+      "id": 25,
+      "passage_id": "P005",
+      "question": "Wie viel bezahlen sie zusammen?",
+      "translation": "How much do they pay together?",
+      "options": ["15 Euro", "20 Euro", "25 Euro", "30 Euro"],
+      "correct_answer": "25 Euro",
+      "explanation": "Sie bezahlen zusammen 25 Euro."
+    },
+    {
+      "id": 26,
+      "passage_id": "P006",
+      "question": "Wie groß ist die Wohnung?",
+      "translation": "How big is the apartment?",
+      "options": ["Sehr groß", "Klein", "Sehr alt", "Sehr teuer"],
+      "correct_answer": "Klein",
+      "explanation": "Der Text sagt: Ich wohne in einer kleinen Wohnung."
+    },
+    {
+      "id": 27,
+      "passage_id": "P006",
+      "question": "Wie viele Zimmer hat die Wohnung?",
+      "translation": "How many rooms does the apartment have?",
+      "options": ["Ein Zimmer", "Zwei Zimmer", "Drei Zimmer", "Vier Zimmer"],
+      "correct_answer": "Zwei Zimmer",
+      "explanation": "Die Wohnung hat zwei Zimmer."
+    },
+    {
+      "id": 28,
+      "passage_id": "P006",
+      "question": "Welche Farbe hat das Schlafzimmer?",
+      "translation": "What color is the bedroom?",
+      "options": ["Rot", "Grün", "Blau", "Gelb"],
+      "correct_answer": "Blau",
+      "explanation": "Im Text steht: Mein Schlafzimmer ist blau."
+    },
+    {
+      "id": 29,
+      "passage_id": "P006",
+      "question": "Was steht im Wohnzimmer?",
+      "translation": "What is in the living room?",
+      "options": ["Ein Bett und ein Schrank", "Ein Sofa und ein Tisch", "Ein Computer und ein Stuhl", "Ein Fernseher und ein Bett"],
+      "correct_answer": "Ein Sofa und ein Tisch",
+      "explanation": "Im Wohnzimmer stehen ein Sofa und ein Tisch."
+    },
+    {
+      "id": 30,
+      "passage_id": "P006",
+      "question": "Was gibt es auf dem Balkon?",
+      "translation": "What is there on the balcony?",
+      "options": ["Ein Fahrrad", "Ein Tisch", "Blumen", "Ein Bett"],
+      "correct_answer": "Blumen",
+      "explanation": "Der Balkon hat Blumen."
+    },
+    {
+      "id": 31,
+      "passage_id": "P007",
+      "question": "An welchem Tag besucht Peter Markus?",
+      "translation": "On which day does Peter visit Markus?",
+      "options": ["Montag", "Mittwoch", "Freitag", "Sonntag"],
+      "correct_answer": "Freitag",
+      "explanation": "Am Freitag besucht Peter seinen Freund Markus."
+    },
+    {
+      "id": 32,
+      "passage_id": "P007",
+      "question": "Wo wohnt Markus?",
+      "translation": "Where does Markus live?",
+      "options": ["Berlin", "Hamburg", "München", "Bremen"],
+      "correct_answer": "Hamburg",
+      "explanation": "Markus wohnt in Hamburg."
+    },
+    {
+      "id": 33,
+      "passage_id": "P007",
+      "question": "Was machen Peter und Markus zusammen?",
+      "translation": "What do Peter and Markus do together?",
+      "options": ["Sie kochen und lesen.", "Sie hören Musik und spielen Computerspiele.", "Sie gehen schwimmen.", "Sie lernen Englisch."],
+      "correct_answer": "Sie hören Musik und spielen Computerspiele.",
+      "explanation": "Sie hören Musik und spielen Computerspiele."
+    },
+    {
+      "id": 34,
+      "passage_id": "P007",
+      "question": "Was essen sie um sechs Uhr?",
+      "translation": "What do they eat at six o'clock?",
+      "options": ["Salat", "Brot", "Pizza", "Kuchen"],
+      "correct_answer": "Pizza",
+      "explanation": "Um sechs Uhr essen sie zusammen Pizza."
+    },
+    {
+      "id": 35,
+      "passage_id": "P007",
+      "question": "Wie fährt Peter nach Hause?",
+      "translation": "How does Peter go home?",
+      "options": ["Mit dem Auto", "Mit dem Zug", "Mit dem Bus", "Mit dem Fahrrad"],
+      "correct_answer": "Mit dem Bus",
+      "explanation": "Peter fährt mit dem Bus nach Hause."
+    },
+    {
+      "id": 36,
+      "passage_id": "P008",
+      "question": "Welcher Tag ist heute?",
+      "translation": "What day is it today?",
+      "options": ["Sonntag", "Montag", "Dienstag", "Freitag"],
+      "correct_answer": "Montag",
+      "explanation": "Der Text beginnt mit: Heute ist Montag."
+    },
+    {
+      "id": 37,
+      "passage_id": "P008",
+      "question": "Wie ist das Wetter?",
+      "translation": "How is the weather?",
+      "options": ["Es regnet.", "Es schneit.", "Es ist schön und sonnig.", "Es ist sehr kalt."],
+      "correct_answer": "Es ist schön und sonnig.",
+      "explanation": "Die Sonne scheint und das Wetter ist schön."
+    },
+    {
+      "id": 38,
+      "passage_id": "P008",
+      "question": "Wohin geht Julia?",
+      "translation": "Where does Julia go?",
+      "options": ["Zum Supermarkt", "In den Park", "Zur Schule", "Ins Restaurant"],
+      "correct_answer": "In den Park",
+      "explanation": "Julia geht mit ihrem Hund in den Park."
+    },
+    {
+      "id": 39,
+      "passage_id": "P008",
+      "question": "Was trägt Julia?",
+      "translation": "What is Julia wearing?",
+      "options": ["Ein Kleid und Schuhe", "Ein T-Shirt und eine Jeans", "Eine Jacke und eine Hose", "Einen Pullover und einen Rock"],
+      "correct_answer": "Ein T-Shirt und eine Jeans",
+      "explanation": "Im Text steht: Sie trägt ein T-Shirt und eine Jeans."
+    },
+    {
+      "id": 40,
+      "passage_id": "P008",
+      "question": "Wer spielt im Park?",
+      "translation": "Who is playing in the park?",
+      "options": ["Viele Kinder", "Viele Hunde", "Viele Lehrer", "Viele Eltern"],
+      "correct_answer": "Viele Kinder",
+      "explanation": "Im Park spielen viele Kinder."
+    },
+    {
+      "id": 41,
+      "passage_id": "P009",
+      "question": "Wie alt ist Daniel?",
+      "translation": "How old is Daniel?",
+      "options": ["14 Jahre", "15 Jahre", "16 Jahre", "18 Jahre"],
+      "correct_answer": "16 Jahre",
+      "explanation": "Daniel sagt: Ich bin 16 Jahre alt."
+    },
+    {
+      "id": 42,
+      "passage_id": "P009",
+      "question": "An welchen Tagen geht Daniel zur Schule?",
+      "translation": "On which days does Daniel go to school?",
+      "options": ["Nur am Montag", "Von Montag bis Freitag", "Am Samstag und Sonntag", "Jeden Sonntag"],
+      "correct_answer": "Von Montag bis Freitag",
+      "explanation": "Daniel geht von Montag bis Freitag zur Schule."
+    },
+    {
+      "id": 43,
+      "passage_id": "P009",
+      "question": "Was ist Daniels Lieblingsfach?",
+      "translation": "What is Daniel's favorite subject?",
+      "options": ["Deutsch", "Mathematik", "Englisch", "Sport"],
+      "correct_answer": "Englisch",
+      "explanation": "Im Text steht: Mein Lieblingsfach ist Englisch."
+    },
+    {
+      "id": 44,
+      "passage_id": "P009",
+      "question": "Wie heißt Daniels Lehrer?",
+      "translation": "What is Daniel's teacher's name?",
+      "options": ["Herr Weber", "Herr Müller", "Herr Schmidt", "Herr Fischer"],
+      "correct_answer": "Herr Müller",
+      "explanation": "Daniels Lehrer heißt Herr Müller."
+    },
+    {
+      "id": 45,
+      "passage_id": "P009",
+      "question": "Wann beginnt die Schule?",
+      "translation": "When does school start?",
+      "options": ["Um sieben Uhr", "Um acht Uhr", "Um neun Uhr", "Um zehn Uhr"],
+      "correct_answer": "Um acht Uhr",
+      "explanation": "Die Schule beginnt um acht Uhr."
+    },
+    {
+      "id": 46,
+      "passage_id": "P010",
+      "question": "Wann fährt Familie Weber nach München?",
+      "translation": "When does the Weber family travel to Munich?",
+      "options": ["Am Freitag", "Am Samstag", "Am Sonntag", "Am Montag"],
+      "correct_answer": "Am Samstag",
+      "explanation": "Am Samstag fährt Familie Weber nach München."
+    },
+    {
+      "id": 47,
+      "passage_id": "P010",
+      "question": "Wie fährt die Familie nach München?",
+      "translation": "How does the family travel to Munich?",
+      "options": ["Mit dem Auto", "Mit dem Bus", "Mit dem Zug", "Mit dem Flugzeug"],
+      "correct_answer": "Mit dem Zug",
+      "explanation": "Im Text steht: Sie fahren mit dem Zug."
+    },
+    {
+      "id": 48,
+      "passage_id": "P010",
+      "question": "Wie lange dauert die Fahrt?",
+      "translation": "How long does the journey take?",
+      "options": ["Eine Stunde", "Zwei Stunden", "Drei Stunden", "Vier Stunden"],
+      "correct_answer": "Zwei Stunden",
+      "explanation": "Die Fahrt dauert zwei Stunden."
+    },
+    {
+      "id": 49,
+      "passage_id": "P010",
+      "question": "Was besuchen sie in München?",
+      "translation": "What do they visit in Munich?",
+      "options": ["Eine Schule", "Ein Museum", "Einen Park", "Ein Krankenhaus"],
+      "correct_answer": "Ein Museum",
+      "explanation": "In München besuchen sie ein Museum."
+    },
+    {
+      "id": 50,
+      "passage_id": "P010",
+      "question": "Wann fährt die Familie nach Hause?",
+      "translation": "When does the family return home?",
+      "options": ["Am Morgen", "Am Mittag", "Am Abend", "In der Nacht"],
+      "correct_answer": "Am Abend",
+      "explanation": "Der Text sagt: Am Abend fahren sie zurück nach Hause."
+    }
+  ]
+}

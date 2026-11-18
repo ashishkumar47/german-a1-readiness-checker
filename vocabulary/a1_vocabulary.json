@@ -1,0 +1,262 @@
+﻿[
+    {
+        "id":  "v1",
+        "question":  "Was bedeutet \"der Tisch\"?",
+        "options":  [
+                        "The chair",
+                        "The table",
+                        "The door",
+                        "The window"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Everyday objects and people",
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+    },
+    {
+        "id":  "v2",
+        "question":  "Welches Wort bedeutet \"apple\" auf Deutsch?",
+        "options":  [
+                        "Die Birne",
+                        "Die Orange",
+                        "Der Apfel",
+                        "Die Banane"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Everyday objects and people",
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+    },
+    {
+        "id":  "v3",
+        "question":  "Was ist das Gegenteil von \"groÃŸ\"?",
+        "options":  [
+                        "Schnell",
+                        "Klein",
+                        "Alt",
+                        "Laut"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Everyday objects and people",
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+    },
+    {
+        "id":  "v4",
+        "question":  "\"Die Schwester\" means:",
+        "options":  [
+                        "The brother",
+                        "The mother",
+                        "The sister",
+                        "The daughter"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Everyday objects and people",
+        "practiceTip":  "Build word cards for household objects and family members, including the article der, die, or das."
+    },
+    {
+        "id":  "v5",
+        "question":  "Welcher Tag kommt nach Montag?",
+        "options":  [
+                        "Mittwoch",
+                        "Sonntag",
+                        "Freitag",
+                        "Dienstag"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "Food, colors, and descriptions",
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+    },
+    {
+        "id":  "v6",
+        "question":  "Was bedeutet \"die KÃ¼che\"?",
+        "options":  [
+                        "The bedroom",
+                        "The kitchen",
+                        "The bathroom",
+                        "The garden"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Food, colors, and descriptions",
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+    },
+    {
+        "id":  "v7",
+        "question":  "\"Der Hund\" ist auf Englisch:",
+        "options":  [
+                        "The cat",
+                        "The bird",
+                        "The dog",
+                        "The fish"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Food, colors, and descriptions",
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+    },
+    {
+        "id":  "v8",
+        "question":  "Welche Farbe ist \"rot\"?",
+        "options":  [
+                        "Blue",
+                        "Green",
+                        "Yellow",
+                        "Red"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "Food, colors, and descriptions",
+        "practiceTip":  "Practise common food and color words by naming items around you in short German phrases."
+    },
+    {
+        "id":  "v9",
+        "question":  "Was bedeutet \"trinken\"?",
+        "options":  [
+                        "To eat",
+                        "To drink",
+                        "To sleep",
+                        "To run"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Daily actions and routines",
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+    },
+    {
+        "id":  "v10",
+        "question":  "\"Das Wasser\" bedeutet:",
+        "options":  [
+                        "The juice",
+                        "The milk",
+                        "The water",
+                        "The tea"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Daily actions and routines",
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+    },
+    {
+        "id":  "v11",
+        "question":  "Wie sagt man \"good morning\" auf Deutsch?",
+        "options":  [
+                        "Gute Nacht",
+                        "Guten Morgen",
+                        "Guten Abend",
+                        "Guten Tag"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "Daily actions and routines",
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+    },
+    {
+        "id":  "v12",
+        "question":  "Was bedeutet \"die Schule\"?",
+        "options":  [
+                        "The office",
+                        "The hospital",
+                        "The school",
+                        "The church"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Daily actions and routines",
+        "practiceTip":  "Review common A1 verbs and say one short sentence for each action."
+    },
+    {
+        "id":  "v13",
+        "question":  "\"Sprechen\" means:",
+        "options":  [
+                        "To write",
+                        "To read",
+                        "To listen",
+                        "To speak"
+                    ],
+        "correctAnswer":  3,
+        "topic":  "Places, numbers, and time",
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+    },
+    {
+        "id":  "v14",
+        "question":  "Was ist \"der Bruder\" auf Englisch?",
+        "options":  [
+                        "The brother",
+                        "The father",
+                        "The uncle",
+                        "The cousin"
+                    ],
+        "correctAnswer":  0,
+        "topic":  "Places, numbers, and time",
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+    },
+    {
+        "id":  "v15",
+        "question":  "Welche Zahl ist \"sieben\"?",
+        "options":  [
+                        "5",
+                        "6",
+                        "7",
+                        "8"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Places, numbers, and time",
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+    },
+    {
+        "id":  "v16",
+        "question":  "Was bedeutet \"das Brot\"?",
+        "options":  [
+                        "The butter",
+                        "The cheese",
+                        "The bread",
+                        "The cake"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "Places, numbers, and time",
+        "practiceTip":  "Practise place and number vocabulary with simple questions and answers about daily life."
+    },
+    {
+        "id":  "v17",
+        "question":  "\"Die Blume\" ist auf Englisch:",
+        "options":  [
+                        "The tree",
+                        "The flower",
+                        "The grass",
+                        "The leaf"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "People, objects, and basic adjectives",
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+    },
+    {
+        "id":  "v18",
+        "question":  "Was bedeutet \"schlafen\"?",
+        "options":  [
+                        "To walk",
+                        "To cook",
+                        "To sleep",
+                        "To play"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "People, objects, and basic adjectives",
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+    },
+    {
+        "id":  "v19",
+        "question":  "\"Der Arzt\" means:",
+        "options":  [
+                        "The teacher",
+                        "The doctor",
+                        "The engineer",
+                        "The lawyer"
+                    ],
+        "correctAnswer":  1,
+        "topic":  "People, objects, and basic adjectives",
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+    },
+    {
+        "id":  "v20",
+        "question":  "Was bedeutet \"kalt\"?",
+        "options":  [
+                        "Hot",
+                        "Warm",
+                        "Cold",
+                        "Cool"
+                    ],
+        "correctAnswer":  2,
+        "topic":  "People, objects, and basic adjectives",
+        "practiceTip":  "Review everyday nouns with their articles and pair them with a basic describing word."
+    }
+]
